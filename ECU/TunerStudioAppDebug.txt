@@ -1,0 +1,1949 @@
+TunerStudio 2.6.14 started on Fri Apr 08 23:31:47 CDT 2016
+JRE 1.6.0_65, Mac OS X 10.11.1, x86_64
+java.library.path=/Applications/TunerStudio MS.app/Contents/Resources/Java:/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources:.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+/Applications/TunerStudio MS.app/Contents/Resources/Java/TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Setting Look & Feel to:com.apple.laf.AquaLookAndFeel
+4/8/16 11:31:50 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+4/8/16 11:31:50 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+4/8/16 11:31:50 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+4/8/16 11:31:50 PM :Debug: App Name:TunerStudio, appEdition:MS
+4/8/16 11:31:50 PM :Warning: Unable to set Main cluster for title:
+4/8/16 11:31:50 PM :Debug: Opening project: /Users/skelo/Desktop/local/240sx/ECU/ts_project
+4/8/16 11:31:50 PM :Debug: Reading translation file as plain text because: fast binary headers not found. probably not a fast binary file
+4/8/16 11:31:50 PM :Debug: Filtered ConfigurationOptionGroup in 70ms.
+4/8/16 11:31:50 PM :Info: Read file canPcVariables.ini: 0.0ms
+4/8/16 11:31:50 PM :Info: Filtered ini: 0.0ms
+4/8/16 11:31:51 PM :Info: Loading Trigger Wheels
+4/8/16 11:31:51 PM :Info: Loaded All known ini sections
+4/8/16 11:31:51 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 31ms.
+4/8/16 11:31:51 PM :Info: Read file mainController.ini: 12.0ms
+4/8/16 11:31:51 PM :Info: Filtered ini: 8.0ms
+4/8/16 11:31:51 PM :Debug: ini signature: MS2Extra comms340tM
+4/8/16 11:31:51 PM :Info: Loading Trigger Wheels
+4/8/16 11:31:51 PM :Info: Loaded All known ini sections
+4/8/16 11:31:51 PM :Info: Parsed and validated ini "mainController.ini" in : 195ms.
+4/8/16 11:31:51 PM :Info: Read file ms2Supplement.ecu: 41.0ms
+4/8/16 11:31:51 PM :Info: Filtered ini: 0.0ms
+4/8/16 11:31:51 PM :Info: Loading Trigger Wheels
+4/8/16 11:31:51 PM :Info: Loaded All known ini sections
+4/8/16 11:31:51 PM :Info: Parsed and validated ini "ms2Supplement.ecu" in : 68ms.
+4/8/16 11:31:51 PM :Info: Read file ms2ExtraDefaultTools.ini: 81.0ms
+4/8/16 11:31:51 PM :Info: Filtered ini: 0.0ms
+4/8/16 11:31:51 PM :Info: Loading Trigger Wheels
+4/8/16 11:31:51 PM :Info: Loaded All known ini sections
+4/8/16 11:31:51 PM :Info: Parsed and validated ini "ms2ExtraDefaultTools.ini" in : 86ms.
+4/8/16 11:31:51 PM :Info: Read file ms2WueAnalyzeMaps.ecu: 0.0ms
+4/8/16 11:31:51 PM :Info: Filtered ini: 0.0ms
+4/8/16 11:31:51 PM :Info: Loading Trigger Wheels
+4/8/16 11:31:51 PM :Info: Loaded All known ini sections
+4/8/16 11:31:51 PM :Info: Parsed and validated ini "ms2WueAnalyzeMaps.ecu" in : 5ms.
+WARNING:  RXTX Version mismatch
+	Jar version = RXTX-2.2pre1
+	native lib Version = RXTX-2.2pre3
+4/8/16 11:31:51 PM :Debug: Adding Configuration: ts_project
+4/8/16 11:31:51 PM :Info: Tune opened, 6005 bytes updated. File:/Users/skelo/Desktop/local/240sx/ECU/ts_project/CurrentTune.msq
+4/8/16 11:31:51 PM :Debug: Flush lasted: 0ms.
+4/8/16 11:31:51 PM :Info: !!! Loaded config in 873
+4/8/16 11:31:51 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:31:51 PM :Debug: Error opeing port, ignoring and monitoring anyway.
+4/8/16 11:31:51 PM :Debug: Started new CommThread for ts_project
+4/8/16 11:31:51 PM :Info: Comm Manager for ts_project Started
+4/8/16 11:31:51 PM :Debug: re-initializing driver in loop
+4/8/16 11:31:51 PM :Info: !!! Activated Project 1071
+4/8/16 11:31:52 PM :Debug: High Speed Paint: true
+4/8/16 11:31:52 PM :Debug: !!! Opened Dash 1626
+4/8/16 11:31:52 PM :Debug: Time to retreive font name list: 10 ms.
+4/8/16 11:31:52 PM :Info: Read file ms2ExtraVeAnalyzeMaps.ini: 27.0ms
+4/8/16 11:31:52 PM :Info: Filtered ini: 0.0ms
+4/8/16 11:31:52 PM :Info: Loading Trigger Wheels
+4/8/16 11:31:52 PM :Info: Loaded All known ini sections
+4/8/16 11:31:52 PM :Info: Parsed and validated ini "ms2ExtraVeAnalyzeMaps.ini" in : 48ms.
+4/8/16 11:31:52 PM :Info: Initialized RXTX driver: 1ms.
+4/8/16 11:31:52 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:31:52 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+No check, last update check=Fri Apr 08 20:17:36 CDT 2016
+4/8/16 11:31:54 PM :Debug: re-initializing driver in loop
+4/8/16 11:31:55 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:31:55 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:31:57 PM :Debug: re-initializing driver in loop
+4/8/16 11:31:58 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:31:58 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:00 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:01 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:01 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:03 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:04 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:04 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:06 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:07 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:07 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:09 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:10 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:10 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:12 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:13 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:13 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:15 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:16 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:16 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:18 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:19 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:19 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:21 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:22 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:25 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:25 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:26 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:26 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:28 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:29 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:29 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:31 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:32 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:32 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:34 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:35 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:35 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:37 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:38 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:38 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:40 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:41 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:41 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:43 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:44 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:44 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:46 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:47 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:47 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:49 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:50 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:50 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:52 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:53 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:53 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:55 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:56 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:56 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:32:58 PM :Debug: re-initializing driver in loop
+4/8/16 11:32:59 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:32:59 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:33:01 PM :Debug: re-initializing driver in loop
+4/8/16 11:33:02 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:33:02 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/8/16 11:33:04 PM :Debug: re-initializing driver in loop
+4/8/16 11:33:05 PM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/8/16 11:33:07 PM :Debug: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread57736.98725339355
+4/8/16 11:33:08 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+4/8/16 11:33:08 PM :Info: Target device is local, using localBlockingFactors
+4/8/16 11:33:09 PM :Info: Communicating with MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/8/16 11:33:09 PM :Info: Comms Watchdog is inactive, staring.
+4/8/16 11:33:09 PM :Info: Started Comms Watchdog
+4/8/16 11:33:09 PM :Debug: Reading ECU Data, 0.0 complete
+4/8/16 11:33:09 PM :Warning: CRC Mismatch!!!! 
+4/8/16 11:33:09 PM :Info:    CRC from controller page 1:xF9 x08 xB9 x82                                                       ....
+4/8/16 11:33:09 PM :Info:    Local Data CRC for page 1: x18 xCA x56 x04                                                       ..V.
+4/8/16 11:33:09 PM :Debug: Read page time: 207ms.
+4/8/16 11:33:09 PM :Info: Checksum page 1 data read: xF9 x08 xB9 x82                                                       ....
+4/8/16 11:33:09 PM :Debug: Reading ECU Data, 0.14285714285714285 complete
+4/8/16 11:33:09 PM :Warning: CRC Mismatch!!!! 
+4/8/16 11:33:09 PM :Info:    CRC from controller page 2:x69 x44 xA2 xB3                                                       iD..
+4/8/16 11:33:09 PM :Info:    Local Data CRC for page 2: x5F xFF x3F xED                                                       _.?.
+4/8/16 11:33:09 PM :Debug: Read page time: 206ms.
+4/8/16 11:33:09 PM :Info: Checksum page 2 data read: x69 x44 xA2 xB3                                                       iD..
+4/8/16 11:33:09 PM :Debug: Reading ECU Data, 0.2857142857142857 complete
+4/8/16 11:33:10 PM :Warning: CRC Mismatch!!!! 
+4/8/16 11:33:10 PM :Info:    CRC from controller page 3:xC6 x43 x0E xDB                                                       .C..
+4/8/16 11:33:10 PM :Info:    Local Data CRC for page 3: xAF x89 x68 x4E                                                       ..hN
+4/8/16 11:33:10 PM :Debug: Read page time: 207ms.
+4/8/16 11:33:10 PM :Info: Checksum page 3 data read: xC6 x43 x0E xDB                                                       .C..
+4/8/16 11:33:10 PM :Debug: Reading ECU Data, 0.42857142857142855 complete
+4/8/16 11:33:10 PM :Debug: CRC matches for page 4:x10 xDF xDF x5F                                                       ..._
+4/8/16 11:33:10 PM :Info: CrC matched skipped controller read on page:3
+4/8/16 11:33:10 PM :Debug: Reading ECU Data, 0.5714285714285714 complete
+4/8/16 11:33:10 PM :Debug: CRC matches for page 5:x17 x01 xD0 xE7                                                       ....
+4/8/16 11:33:10 PM :Info: CrC matched skipped controller read on page:4
+4/8/16 11:33:10 PM :Debug: Reading ECU Data, 0.7142857142857143 complete
+4/8/16 11:33:10 PM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+4/8/16 11:33:10 PM :Info: CrC matched skipped controller read on page:5
+4/8/16 11:33:10 PM :Debug: Reading ECU Data, 0.8571428571428571 complete
+4/8/16 11:33:10 PM :Debug: CRC matches for page 7:xFF x6E xAB xED                                                       .n..
+4/8/16 11:33:10 PM :Info: CrC matched skipped controller read on page:6
+4/8/16 11:33:10 PM :Debug: Reading ECU Data, 1.0 complete
+4/8/16 11:33:10 PM :Debug: Read All Data
+4/8/16 11:33:10 PM :Debug: isBlank Time: 0 ms.
+4/8/16 11:33:10 PM :Debug: DiffTime: 25 ms.
+4/8/16 11:33:10 PM :Info: dr: 0:175
+4/8/16 11:33:10 PM :Debug: Range Sort Time: 0
+4/8/16 11:33:24 PM :Debug: Time to load ini list: 137ms.
+4/8/16 11:33:24 PM :Debug: Filtered ConfigurationOptionGroup in 4ms.
+4/8/16 11:35:17 PM :Debug: EcuConfigName for Save:ts_project
+4/8/16 11:36:24 PM :Debug: Flush lasted: 0ms.
+4/8/16 11:36:24 PM :Debug: goOffline Starting, Time:0
+4/8/16 11:36:24 PM :Info: Deactivated Turbo Baud, goOffline
+4/8/16 11:36:25 PM :Debug: goOffline about to stopProcessing, Time:251
+4/8/16 11:36:25 PM :Debug: goOffline Notified offline, Time:256
+4/8/16 11:36:25 PM :Debug: currentPort == null:false
+4/8/16 11:36:25 PM :Info: Removed Port from cache
+4/8/16 11:36:25 PM :Debug: ts_project ComThread stopped
+4/8/16 11:36:25 PM :Info: Successfully Closed Port
+4/8/16 11:36:25 PM :Debug: goOffline closed port, Time:357
+4/8/16 11:36:25 PM :Debug: goOffline comm thread stopped, Time:358
+4/8/16 11:36:25 PM :Debug: No Remaining Queue Write instructions
+4/8/16 11:36:25 PM :Info: Stopped Comms Watchdog
+4/9/16 12:59:10 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 12:59:11 AM :Debug: Monitoring /dev/cu.usbserial-FT8WGU26 @ 115200 baud for controllers.
+4/9/16 12:59:11 AM :Debug: Started new CommThread for ts_project
+4/9/16 12:59:11 AM :Info: Comm Manager for ts_project Started
+4/9/16 12:59:11 AM :Info: Started Comms Watchdog
+4/9/16 12:59:11 AM :Debug: Comm Read Thread Change! Old Thread:COMM Thread57736.98725339355, new Thread:COMM Thread71710.19387869012
+4/9/16 12:59:12 AM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+4/9/16 12:59:12 AM :Info: Target device is local, using localBlockingFactors
+4/9/16 12:59:13 AM :Info: Communicating with MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.0 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 1:xF9 x08 xB9 x82                                                       ....
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:0
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.14285714285714285 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 2:x69 x44 xA2 xB3                                                       iD..
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:1
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.2857142857142857 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 3:xC6 x43 x0E xDB                                                       .C..
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:2
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.42857142857142855 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 4:x10 xDF xDF x5F                                                       ..._
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:3
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.5714285714285714 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 5:x17 x01 xD0 xE7                                                       ....
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:4
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.7142857142857143 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:5
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 0.8571428571428571 complete
+4/9/16 12:59:13 AM :Debug: CRC matches for page 7:xFF x6E xAB xED                                                       .n..
+4/9/16 12:59:13 AM :Info: CrC matched skipped controller read on page:6
+4/9/16 12:59:13 AM :Debug: Reading ECU Data, 1.0 complete
+4/9/16 12:59:13 AM :Debug: Read All Data
+4/9/16 12:59:13 AM :Debug: isBlank Time: 0 ms.
+4/9/16 12:59:13 AM :Debug: DiffTime: 9 ms.
+4/9/16 12:59:20 AM :Info: Initiating read page 1
+4/9/16 12:59:20 AM :Debug: CRC matches for page 1:xF9 x08 xB9 x82                                                       ....
+4/9/16 12:59:20 AM :Info: CrC matched skipped controller read on page:0
+4/9/16 12:59:40 AM :Debug: Flush lasted: 0ms.
+4/9/16 12:59:45 AM :Info: Initiating read page 7
+4/9/16 12:59:45 AM :Info: dr: 0:175
+4/9/16 12:59:45 AM :Debug: Range Sort Time: 0
+4/9/16 12:59:45 AM :Debug: CRC matches for page 7:xFF x6E xAB xED                                                       .n..
+4/9/16 12:59:45 AM :Info: CrC matched skipped controller read on page:6
+4/9/16 1:00:20 AM :Info: dr: 0:175
+4/9/16 1:00:20 AM :Debug: Range Sort Time: 0
+4/9/16 1:00:20 AM :Debug: Flush lasted: 0ms.
+4/9/16 1:00:30 AM :Info: Initiating read page 3
+4/9/16 1:00:30 AM :Debug: CRC matches for page 3:xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:00:30 AM :Info: CrC matched skipped controller read on page:2
+4/9/16 1:00:30 AM :Info: dr: 0:175
+4/9/16 1:00:30 AM :Debug: Range Sort Time: 1
+4/9/16 1:01:39 AM :Info: dr: 0:175
+4/9/16 1:01:39 AM :Debug: Range Sort Time: 0
+4/9/16 1:01:39 AM :Debug: Flush lasted: 0ms.
+4/9/16 1:01:43 AM :Info: Logger Processor stopped.
+4/9/16 1:01:43 AM :Info: Logger Processor stopped.
+4/9/16 1:01:43 AM :Info: Logger Processor stopped.
+4/9/16 1:01:43 AM :Info: Logger Processor stopped.
+4/9/16 1:01:43 AM :Debug: High Speed Paint: true
+4/9/16 1:01:43 AM :Info: dr: 0:175
+4/9/16 1:01:43 AM :Debug: Range Sort Time: 0
+4/9/16 1:01:43 AM :Debug: Deactivated fast paint
+4/9/16 1:02:35 AM :Info: dr: 0:175
+4/9/16 1:02:35 AM :Debug: Range Sort Time: 0
+4/9/16 1:02:35 AM :Debug: High Speed Paint: true
+4/9/16 1:02:35 AM :Debug: High Speed Paint: true
+4/9/16 1:02:35 AM :Info: dr: 0:175
+4/9/16 1:02:35 AM :Debug: Range Sort Time: 0
+4/9/16 1:02:35 AM :Debug: High Speed Paint: true
+4/9/16 1:02:35 AM :Debug: High Speed Paint: true
+4/9/16 1:02:35 AM :Info: dr: 0:175
+4/9/16 1:02:35 AM :Debug: Range Sort Time: 0
+4/9/16 1:03:33 AM :Info: dr: 0:175
+4/9/16 1:03:33 AM :Debug: Range Sort Time: 0
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Info: dr: 0:175
+4/9/16 1:05:32 AM :Debug: Range Sort Time: 0
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Info: dr: 0:175
+4/9/16 1:05:32 AM :Debug: Range Sort Time: 0
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Info: dr: 0:175
+4/9/16 1:05:32 AM :Debug: Range Sort Time: 1
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Debug: High Speed Paint: true
+4/9/16 1:05:32 AM :Info: dr: 0:175
+4/9/16 1:05:32 AM :Debug: Range Sort Time: 1
+4/9/16 1:07:34 AM :Debug: Flush lasted: 0ms.
+4/9/16 1:07:34 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:07:34 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:07:34 AM :Debug: goOffline about to stopProcessing, Time:251
+4/9/16 1:07:34 AM :Debug: ts_project ComThread stopped
+4/9/16 1:07:34 AM :Debug: goOffline Notified offline, Time:268
+4/9/16 1:07:34 AM :Debug: currentPort == null:false
+4/9/16 1:07:34 AM :Info: Removed Port from cache
+4/9/16 1:07:34 AM :Info: Successfully Closed Port
+4/9/16 1:07:34 AM :Debug: goOffline closed port, Time:370
+4/9/16 1:07:34 AM :Debug: goOffline comm thread stopped, Time:370
+4/9/16 1:07:34 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:07:34 AM :Info: Stopped Comms Watchdog
+4/9/16 1:09:30 AM :Debug: TuneLog Editor set text
+4/9/16 1:09:31 AM :Info: Skip Restore Point for 'ts_project' because nothing changed since: ts_project_240_2016-04-08_20.59.16.msq
+4/9/16 1:09:31 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:09:31 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:09:31 AM :Debug: goOffline about to stopProcessing, Time:0
+4/9/16 1:09:31 AM :Debug: currentPort == null:true
+4/9/16 1:09:31 AM :Debug: goOffline closed port, Time:1
+4/9/16 1:09:31 AM :Debug: goOffline comm thread stopped, Time:1
+4/9/16 1:09:31 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:09:31 AM :Debug: removing Configuration: ts_project
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 36 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 14 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 49 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 12 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 34 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 9 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 32 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 14 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 22 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 6 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 27 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 29 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 16 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 7 ms.
+4/9/16 1:09:31 AM :Debug: Time to save Dash: 16 ms.
+4/9/16 1:09:33 AM :Debug: Time to load ini list: 60ms.
+MSmain: No check, last update check=Fri Apr 08 20:48:38 CDT 2016
+MSad: No check, last update check=Fri Apr 08 20:48:41 CDT 2016
+Apr 9, 2016 1:10:04 AM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+4/9/16 1:10:04 AM :Debug: Created CheckThread
+Apr 9, 2016 1:10:10 AM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+4/9/16 1:10:10 AM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Apr 9, 2016 1:10:13 AM z.c f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at z.c.f(Unknown Source)
+	at f.o.h(Unknown Source)
+	at f.i.b(Unknown Source)
+	at f.i.a(Unknown Source)
+	at f.j.run(Unknown Source)
+4/9/16 1:10:13 AM :Info: None Controller not found
+Apr 9, 2016 1:10:20 AM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+4/9/16 1:10:20 AM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Apr 9, 2016 1:10:23 AM z.c f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at z.c.f(Unknown Source)
+	at f.o.h(Unknown Source)
+	at f.i.b(Unknown Source)
+	at f.i.a(Unknown Source)
+	at f.j.run(Unknown Source)
+4/9/16 1:10:23 AM :Info: None Controller not found
+4/9/16 1:10:25 AM :Info: Opening port: /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:25 AM :Debug: !!!!!! Time to Connect = 7
+4/9/16 1:10:27 AM :Debug: Calling RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:10:27 AM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+4/9/16 1:10:28 AM :Info: Timeout on port: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:28 AM :Debug: Calling RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200 Command: x53                                                                   S
+4/9/16 1:10:29 AM :Info: Timeout on port: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:29 AM :Debug: Calling RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200 Command: x0D                                                                   .
+4/9/16 1:10:30 AM :Info: Timeout on port: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200, completed this port query
+4/9/16 1:10:30 AM :Info: Timeout on: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:30 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:30 AM :Info: Removed Port from cache
+4/9/16 1:10:30 AM :Info: Closing Port /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:30 AM :Info: no Controller found on RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:30 AM :Info: Successfully Closed Port
+4/9/16 1:10:31 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:10:32 AM :Debug: !!!!!! Time to Connect = 1507
+4/9/16 1:10:34 AM :Debug: Calling RXTX: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:10:34 AM :Debug: found signature:MS2Extra comms340tM , using queryCommand:Q
+4/9/16 1:10:35 AM :Info: Found Device, discontinue search on RXTX: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:10:35 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/cu.usbserial-FT8WGU26
+4/9/16 1:10:35 AM :Info: Removed Port from cache
+4/9/16 1:10:35 AM :Info: Closing Port /dev/cu.usbserial-FT8WGU26
+4/9/16 1:10:35 AM :Info: Successfully Closed Port
+4/9/16 1:10:35 AM :Debug: Finished Check:RXTX: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200
+Result:Signature:MS2Extra comms340tM , firmware:MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:10:35 AM :Debug: Device MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM, requiring serial Signature:MS2Extra comms340tM  found at:RXTX: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:10:35 AM :Info: Opening port: /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:10:35 AM :Debug: !!!!!! Time to Connect = 6
+4/9/16 1:10:36 AM :Debug: Calling RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:10:38 AM :Info: Timeout on port: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:38 AM :Debug: Calling RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200 Command: x53                                                                   S
+4/9/16 1:10:39 AM :Info: Timeout on port: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:39 AM :Debug: Calling RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200 Command: x0D                                                                   .
+4/9/16 1:10:40 AM :Info: Timeout on port: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200, completed this port query
+4/9/16 1:10:40 AM :Info: Timeout on: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:40 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:10:40 AM :Info: Removed Port from cache
+4/9/16 1:10:40 AM :Info: Closing Port /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:10:40 AM :Info: no Controller found on RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:10:40 AM :Info: Successfully Closed Port
+4/9/16 1:10:40 AM :Info: Opening port: /dev/tty.usbserial-FT8WGU26
+4/9/16 1:10:42 AM :Debug: !!!!!! Time to Connect = 1507
+4/9/16 1:10:43 AM :Debug: Calling RXTX: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:10:44 AM :Debug: found signature:MS2Extra comms340tM , using queryCommand:Q
+4/9/16 1:10:44 AM :Info: Found Device, discontinue search on RXTX: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:10:44 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/tty.usbserial-FT8WGU26
+4/9/16 1:10:44 AM :Info: Removed Port from cache
+4/9/16 1:10:44 AM :Info: Closing Port /dev/tty.usbserial-FT8WGU26
+4/9/16 1:10:44 AM :Info: Successfully Closed Port
+4/9/16 1:10:44 AM :Debug: Finished Check:RXTX: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200
+Result:Signature:MS2Extra comms340tM , firmware:MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:10:45 AM :Info: Opening port: /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:45 AM :Debug: !!!!!! Time to Connect = 6
+4/9/16 1:10:46 AM :Debug: Calling RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Command: x51                                                                   Q
+4/9/16 1:10:47 AM :Info: Timeout on port: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:47 AM :Debug: Calling RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Command: x53                                                                   S
+4/9/16 1:10:49 AM :Info: Timeout on port: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:49 AM :Debug: Calling RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Command: x0D                                                                   .
+4/9/16 1:10:50 AM :Info: Timeout on port: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600, completed this port query
+4/9/16 1:10:50 AM :Info: Timeout on: RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:50 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:50 AM :Info: Removed Port from cache
+4/9/16 1:10:50 AM :Info: Closing Port /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:50 AM :Info: no Controller found on RXTX: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:50 AM :Info: distinctSetting already found for: RXTX: Port:/dev/cu.usbserial-FT8WGU26, Baud:9600
+4/9/16 1:10:50 AM :Info: Successfully Closed Port
+4/9/16 1:10:50 AM :Info: Opening port: /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:10:50 AM :Debug: !!!!!! Time to Connect = 7
+4/9/16 1:10:51 AM :Debug: Calling RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600 Command: x51                                                                   Q
+4/9/16 1:10:53 AM :Info: Timeout on port: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:53 AM :Debug: Calling RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600 Command: x53                                                                   S
+4/9/16 1:10:54 AM :Info: Timeout on port: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:54 AM :Debug: Calling RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600 Command: x0D                                                                   .
+4/9/16 1:10:55 AM :Info: Timeout on port: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600, completed this port query
+4/9/16 1:10:55 AM :Info: Timeout on: RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:55 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:10:55 AM :Info: Removed Port from cache
+4/9/16 1:10:55 AM :Info: Closing Port /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:10:55 AM :Info: no Controller found on RXTX: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:10:55 AM :Info: distinctSetting already found for: RXTX: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600
+4/9/16 1:10:55 AM :Info: Successfully Closed Port
+4/9/16 1:10:59 AM :Info: Opening port: /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:10:59 AM :Debug: !!!!!! Time to Connect = 52
+4/9/16 1:11:01 AM :Debug: Calling RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:11:01 AM :Info: Timeout on port: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:11:01 AM :Debug: Calling RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200 Command: x53                                                                   S
+4/9/16 1:11:02 AM :Info: Timeout on port: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:11:02 AM :Debug: Calling RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200 Command: x0D                                                                   .
+4/9/16 1:11:03 AM :Info: Timeout on port: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200, completed this port query
+4/9/16 1:11:03 AM :Info: Timeout on: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:11:03 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:11:03 AM :Info: Closing Port
+4/9/16 1:11:03 AM :Info: Successfully Closed Port
+4/9/16 1:11:03 AM :Info: no Controller found on RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:11:03 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:11:04 AM :Debug: !!!!!! Time to Connect = 1502
+4/9/16 1:11:06 AM :Debug: Calling RS232: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:11:17 AM :Debug: found signature:MS2Extra comms340tM , using queryCommand:Q
+4/9/16 1:11:27 AM :Info: Found Device, discontinue search on RS232: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:11:27 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:11:27 AM :Info: Closing Port
+4/9/16 1:11:35 AM :Info: Successfully Closed Port
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at A.b.<init>(Unknown Source)
+	at A.a.g(Unknown Source)
+	at f.i.b(Unknown Source)
+	at f.i.a(Unknown Source)
+	at f.j.run(Unknown Source)
+4/9/16 1:11:35 AM :Debug: Created CheckThread
+4/9/16 1:11:35 AM :Debug: CheckThread exiting
+4/9/16 1:11:35 AM :Info: RS232: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200 Controller not found
+4/9/16 1:11:55 AM :Info: Opening port: /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:11:55 AM :Debug: !!!!!! Time to Connect = 0
+4/9/16 1:12:07 AM :Debug: Calling RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200 Command: x51                                                                   Q
+4/9/16 1:12:15 AM :Debug: Created CheckThread
+4/9/16 1:12:15 AM :Info: Timeout on port: RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200
+4/9/16 1:12:15 AM :Debug: Calling RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200 Command: x53                                                                   S
+4/9/16 1:12:15 AM :Info: RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:115200 Controller not found
+4/9/16 1:12:26 AM :Info: Timeout on port: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:12:26 AM :Debug: Calling RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200 Command: x0D                                                                   .
+4/9/16 1:12:37 AM :Info: Timeout on port: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200, completed this port query
+4/9/16 1:12:37 AM :Info: Timeout on: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:12:37 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:12:37 AM :Info: Closing Port
+4/9/16 1:12:45 AM :Info: Successfully Closed Port
+4/9/16 1:12:46 AM :Info: no Controller found on RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:115200
+4/9/16 1:12:47 AM :Info: Opening port: /dev/cu.Bluetooth-Incoming-Port
+4/9/16 1:12:47 AM :Debug: CheckThread exiting
+4/9/16 1:12:47 AM :Debug: !!!!!! Time to Connect = 544
+4/9/16 1:12:59 AM :Debug: Calling RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Command: x51                                                                   Q
+4/9/16 1:13:09 AM :Info: Timeout on port: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:13:09 AM :Debug: Calling RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Command: x53                                                                   S
+4/9/16 1:13:20 AM :Info: Timeout on port: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:13:20 AM :Debug: Calling RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Command: x0D                                                                   .
+4/9/16 1:13:26 AM :Debug: Created CheckThread
+4/9/16 1:13:26 AM :Info: Timeout on port: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600, completed this port query
+4/9/16 1:13:26 AM :Info: Timeout on: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600
+4/9/16 1:13:26 AM :Info: RS232: Port:/dev/cu.Bluetooth-Incoming-Port, Baud:9600 Controller not found
+4/9/16 1:13:26 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:13:26 AM :Info: Closing Port
+4/9/16 1:13:27 AM :Info: Successfully Closed Port
+4/9/16 1:13:36 AM :Debug: CheckThread exiting
+4/9/16 1:13:46 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:13:48 AM :Debug: !!!!!! Time to Connect = 1503
+4/9/16 1:13:59 AM :Debug: Calling RS232: Port:/dev/cu.usbserial-FT8WGU26, Baud:9600 Command: x51                                                                   Q
+4/9/16 1:14:06 AM :Debug: Created CheckThread
+4/9/16 1:14:06 AM :Debug: Calling RS232: Port:/dev/cu.usbserial-FT8WGU26, Baud:9600 Command: x53                                                                   S
+4/9/16 1:14:06 AM :Info: RS232: Port:/dev/cu.usbserial-FT8WGU26, Baud:9600 Controller not found
+4/9/16 1:14:17 AM :Debug: Calling RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600 Command: x0D                                                                   .
+4/9/16 1:14:27 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:14:27 AM :Info: Closing Port
+4/9/16 1:14:28 AM :Info: Successfully Closed Port
+4/9/16 1:14:38 AM :Debug: CheckThread exiting
+4/9/16 1:14:38 AM :Info: Opening port: /dev/tty.Bluetooth-Incoming-Port
+4/9/16 1:14:38 AM :Debug: !!!!!! Time to Connect = 1
+4/9/16 1:14:46 AM :Debug: Created CheckThread
+Apr 9, 2016 1:14:46 AM f.i b
+SEVERE: null
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at f.i.b(Unknown Source)
+	at f.i.a(Unknown Source)
+	at f.j.run(Unknown Source)
+4/9/16 1:14:46 AM :Info: RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600 Controller not found
+4/9/16 1:14:46 AM :Debug: Calling RS232: Port:/dev/tty.Bluetooth-Incoming-Port, Baud:9600 Command: x51                                                                   Q
+4/9/16 1:14:57 AM :Info: Timeout on port: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600
+4/9/16 1:14:57 AM :Debug: Calling RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600 Command: x53                                                                   S
+4/9/16 1:15:08 AM :Info: Timeout on port: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600
+4/9/16 1:15:08 AM :Debug: Calling RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600 Command: x0D                                                                   .
+4/9/16 1:15:18 AM :Info: Timeout on port: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600, completed this port query
+4/9/16 1:15:18 AM :Info: Timeout on: RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600
+4/9/16 1:15:18 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:15:18 AM :Info: Closing Port
+4/9/16 1:15:27 AM :Info: no Controller found on RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600
+4/9/16 1:15:28 AM :Info: Successfully Closed Port
+4/9/16 1:15:28 AM :Debug: CheckThread exiting
+4/9/16 1:15:28 AM :Info: Opening port: /dev/tty.usbserial-FT8WGU26
+4/9/16 1:15:30 AM :Debug: !!!!!! Time to Connect = 1502
+4/9/16 1:15:41 AM :Debug: Calling RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600 Command: x51                                                                   Q
+4/9/16 1:15:52 AM :Debug: Calling RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600 Command: x53                                                                   S
+4/9/16 1:16:03 AM :Debug: Calling RS232: Port:/dev/tty.usbserial-FT8WGU26, Baud:9600 Command: x0D                                                                   .
+4/9/16 1:16:13 AM :Debug: JSSC ControllerInterface Close Connection currentPort == null:false
+4/9/16 1:16:13 AM :Info: Closing Port
+4/9/16 1:16:20 AM :Info: Successfully Closed Port
+4/9/16 1:16:31 AM :Debug: CheckThread exiting
+4/9/16 1:16:31 AM :Debug: Created CheckThread
+4/9/16 1:16:31 AM :Info: 192.168.1.80:2000 Controller not found
+4/9/16 1:16:49 AM :Debug: Opening Connection to WiFi Device: None
+4/9/16 1:16:53 AM :Info: 192.168.1.81:2000 Controller not found
+4/9/16 1:16:56 AM :Debug: Ok, device accepted:Signature:MS2Extra comms340tM , firmware:MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:16:57 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:16:57 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:16:57 AM :Debug: goOffline about to stopProcessing, Time:0
+4/9/16 1:16:57 AM :Debug: goOffline closed port, Time:1
+4/9/16 1:16:57 AM :Debug: goOffline comm thread stopped, Time:1
+4/9/16 1:16:57 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:16:57 AM :Debug: CheckThread exiting
+4/9/16 1:17:19 AM :Debug: Filtered ConfigurationOptionGroup in 13ms.
+4/9/16 1:17:26 AM :Info: Read file canPcVariables.ini: 0.0ms
+4/9/16 1:17:26 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:17:26 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:26 AM :Info: Loaded All known ini sections
+4/9/16 1:17:26 AM :Info: Parsed and validated ini "canPcVariables.ini" in : 2ms.
+4/9/16 1:17:26 AM :Info: Read file MS2Extracomms340tM.ini: 4.0ms
+4/9/16 1:17:26 AM :Info: Filtered ini: 5.0ms
+4/9/16 1:17:26 AM :Debug: ini signature: MS2Extra comms340tM
+4/9/16 1:17:26 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:26 AM :Info: Loaded All known ini sections
+4/9/16 1:17:26 AM :Info: Parsed and validated ini "MS2Extracomms340tM.ini" in : 149ms.
+4/9/16 1:17:26 AM :Debug: Adding Configuration: powerhouse
+4/9/16 1:17:26 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:17:26 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:17:26 AM :Debug: goOffline about to stopProcessing, Time:0
+4/9/16 1:17:26 AM :Debug: goOffline closed port, Time:0
+4/9/16 1:17:26 AM :Debug: goOffline comm thread stopped, Time:0
+4/9/16 1:17:26 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:17:26 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:17:28 AM :Info: Comm Read Thread Change! Old Thread:null, new Thread:Thread-64
+4/9/16 1:17:28 AM :Debug: Read from RXTX: Port:/dev/cu.usbserial-FT8WGU26, Baud:115200, signature:MS2Extra comms340tM
+4/9/16 1:17:28 AM :Debug: RXTX ControllerInterface:: Close Connection currentPort = /dev/cu.usbserial-FT8WGU26
+4/9/16 1:17:28 AM :Info: Removed Port from cache
+4/9/16 1:17:28 AM :Info: Closing Port /dev/cu.usbserial-FT8WGU26
+4/9/16 1:17:28 AM :Info: Successfully Closed Port
+4/9/16 1:17:28 AM :Debug: RXTX ControllerInterface Close Connection currentPort == null
+4/9/16 1:17:31 AM :Debug: Time to save Dash: 12 ms.
+4/9/16 1:17:31 AM :Debug: High Speed Paint: true
+4/9/16 1:17:31 AM :Debug: High Speed Paint: true
+4/9/16 1:17:53 AM :Warning: Could not get Firmware signature
+4/9/16 1:17:53 AM :Debug: Time to save Dash: 10 ms.
+4/9/16 1:17:53 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:17:53 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:17:53 AM :Debug: goOffline about to stopProcessing, Time:1
+4/9/16 1:17:53 AM :Debug: currentPort == null:true
+4/9/16 1:17:53 AM :Debug: goOffline closed port, Time:1
+4/9/16 1:17:53 AM :Debug: goOffline comm thread stopped, Time:1
+4/9/16 1:17:53 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:17:53 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:17:53 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:17:53 AM :Debug: goOffline about to stopProcessing, Time:0
+4/9/16 1:17:53 AM :Debug: currentPort == null:true
+4/9/16 1:17:53 AM :Debug: goOffline closed port, Time:0
+4/9/16 1:17:53 AM :Debug: goOffline comm thread stopped, Time:0
+4/9/16 1:17:53 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:17:53 AM :Debug: removing Configuration: powerhouse
+4/9/16 1:17:53 AM :Debug: Opening project: /Users/skelo/Desktop/local/240sx/ECU/powerhouse
+4/9/16 1:17:53 AM :Debug: Filtered ConfigurationOptionGroup in 2ms.
+4/9/16 1:17:53 AM :Info: Read file canPcVariables.ini: 0.0ms
+4/9/16 1:17:53 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:17:53 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:53 AM :Info: Loaded All known ini sections
+4/9/16 1:17:53 AM :Info: Parsed and validated ini "canPcVariables.ini" in : 0ms.
+4/9/16 1:17:53 AM :Info: Read file mainController.ini: 2.0ms
+4/9/16 1:17:53 AM :Info: Filtered ini: 4.0ms
+4/9/16 1:17:53 AM :Debug: ini signature: MS2Extra comms340tM
+4/9/16 1:17:53 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:53 AM :Info: Loaded All known ini sections
+4/9/16 1:17:53 AM :Info: Parsed and validated ini "mainController.ini" in : 70ms.
+4/9/16 1:17:53 AM :Info: Read file ms2Supplement.ecu: 24.0ms
+4/9/16 1:17:53 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:17:53 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:54 AM :Info: Loaded All known ini sections
+4/9/16 1:17:54 AM :Info: Parsed and validated ini "ms2Supplement.ecu" in : 45ms.
+4/9/16 1:17:54 AM :Info: Read file ms2ExtraDefaultTools.ini: 0.0ms
+4/9/16 1:17:54 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:17:54 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:54 AM :Info: Loaded All known ini sections
+4/9/16 1:17:54 AM :Info: Parsed and validated ini "ms2ExtraDefaultTools.ini" in : 2ms.
+4/9/16 1:17:54 AM :Info: Read file ms2WueAnalyzeMaps.ecu: 0.0ms
+4/9/16 1:17:54 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:17:54 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:54 AM :Info: Loaded All known ini sections
+4/9/16 1:17:54 AM :Info: Parsed and validated ini "ms2WueAnalyzeMaps.ecu" in : 3ms.
+4/9/16 1:17:54 AM :Debug: Adding Configuration: powerhouse
+4/9/16 1:17:54 AM :Info: !!! Loaded config in 159
+4/9/16 1:17:54 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:17:56 AM :Debug: Monitoring /dev/cu.usbserial-FT8WGU26 @ 115200 baud for controllers.
+4/9/16 1:17:56 AM :Debug: Started new CommThread for powerhouse
+4/9/16 1:17:56 AM :Info: Comm Manager for powerhouse Started
+4/9/16 1:17:56 AM :Info: Started Comms Watchdog
+4/9/16 1:17:56 AM :Debug: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread91777.8032468692
+4/9/16 1:17:56 AM :Info: !!! Activated Project 2176
+4/9/16 1:17:56 AM :Debug: High Speed Paint: true
+4/9/16 1:17:56 AM :Debug: !!! Opened Dash 2409
+4/9/16 1:17:56 AM :Info: Read file ms2ExtraVeAnalyzeMaps.ini: 0.0ms
+4/9/16 1:17:56 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:17:56 AM :Info: Loading Trigger Wheels
+4/9/16 1:17:56 AM :Info: Loaded All known ini sections
+4/9/16 1:17:56 AM :Info: Parsed and validated ini "ms2ExtraVeAnalyzeMaps.ini" in : 2ms.
+4/9/16 1:17:56 AM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+4/9/16 1:17:56 AM :Info: Target device is local, using localBlockingFactors
+4/9/16 1:17:57 AM :Info: Communicating with MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:17:57 AM :Debug: Reading ECU Data, 0.0 complete
+4/9/16 1:17:57 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:57 AM :Info:    CRC from controller page 1:xF9 x08 xB9 x82                                                       ....
+4/9/16 1:17:57 AM :Info:    Local Data CRC for page 1: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:58 AM :Debug: Read page time: 204ms.
+4/9/16 1:17:58 AM :Info: Checksum page 1 data read: xF9 x08 xB9 x82                                                       ....
+4/9/16 1:17:58 AM :Debug: Reading ECU Data, 0.14285714285714285 complete
+4/9/16 1:17:58 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:58 AM :Info:    CRC from controller page 2:x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:17:58 AM :Info:    Local Data CRC for page 2: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:58 AM :Debug: Read page time: 206ms.
+4/9/16 1:17:58 AM :Info: Checksum page 2 data read: x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:17:58 AM :Debug: Reading ECU Data, 0.2857142857142857 complete
+4/9/16 1:17:58 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:58 AM :Info:    CRC from controller page 3:xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:17:58 AM :Info:    Local Data CRC for page 3: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:58 AM :Debug: Read page time: 203ms.
+4/9/16 1:17:58 AM :Info: Checksum page 3 data read: xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:17:58 AM :Debug: Reading ECU Data, 0.42857142857142855 complete
+4/9/16 1:17:58 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:58 AM :Info:    CRC from controller page 4:x10 xDF xDF x5F                                                       ..._
+4/9/16 1:17:58 AM :Info:    Local Data CRC for page 4: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:58 AM :Debug: Read page time: 206ms.
+4/9/16 1:17:58 AM :Info: Checksum page 4 data read: x10 xDF xDF x5F                                                       ..._
+4/9/16 1:17:58 AM :Debug: Reading ECU Data, 0.5714285714285714 complete
+4/9/16 1:17:58 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:58 AM :Info:    CRC from controller page 5:x17 x01 xD0 xE7                                                       ....
+4/9/16 1:17:58 AM :Info:    Local Data CRC for page 5: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:59 AM :Debug: Read page time: 207ms.
+4/9/16 1:17:59 AM :Info: Checksum page 5 data read: x17 x01 xD0 xE7                                                       ....
+4/9/16 1:17:59 AM :Debug: Reading ECU Data, 0.7142857142857143 complete
+4/9/16 1:17:59 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:59 AM :Info:    CRC from controller page 6:x61 x80 xB9 x61                                                       a..a
+4/9/16 1:17:59 AM :Info:    Local Data CRC for page 6: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:59 AM :Debug: Read page time: 203ms.
+4/9/16 1:17:59 AM :Info: Checksum page 6 data read: x61 x80 xB9 x61                                                       a..a
+4/9/16 1:17:59 AM :Debug: Reading ECU Data, 0.8571428571428571 complete
+4/9/16 1:17:59 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:17:59 AM :Info:    CRC from controller page 7:xFF x6E xAB xED                                                       .n..
+4/9/16 1:17:59 AM :Info:    Local Data CRC for page 7: xEF xB5 xAF x2E                                                       ....
+4/9/16 1:17:59 AM :Debug: Read page time: 205ms.
+4/9/16 1:17:59 AM :Info: Checksum page 7 data read: xFF x6E xAB xED                                                       .n..
+4/9/16 1:17:59 AM :Debug: Reading ECU Data, 1.0 complete
+4/9/16 1:17:59 AM :Debug: Read All Data
+4/9/16 1:17:59 AM :Info: dr: 0:94
+4/9/16 1:17:59 AM :Debug: Range Sort Time: 0
+4/9/16 1:18:00 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:18:00 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:18:00 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:18:08 AM :Debug: Exception Caught during comms, type:java.io.IOException, message: Device not configured in nativeavailable
+4/9/16 1:18:08 AM :Debug: Exception Caught during comms, type:java.io.IOException, message: Device not configured in nativeavailable
+4/9/16 1:18:08 AM :Debug: Exception Caught during comms, type:java.io.IOException, message: Device not configured in nativeavailable
+4/9/16 1:18:08 AM :Debug: Exception Caught during comms, type:java.io.IOException, message: Device not configured in nativeavailable
+4/9/16 1:18:09 AM :Info: Stopped Comms Watchdog
+4/9/16 1:18:09 AM :Debug: currentPort == null:false
+4/9/16 1:18:09 AM :Info: Removed Port from cache
+4/9/16 1:18:09 AM :Info: Successfully Closed Port
+4/9/16 1:18:09 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:18:09 AM :Debug: Went offline
+4/9/16 1:18:09 AM :Debug: Writing the last 0 comm interactions with the controller to the log file here:
+4/9/16 1:18:09 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:18:09 AM :Info: Went offline 2
+4/9/16 1:18:12 AM :Debug: re-initializing driver in loop
+4/9/16 1:18:12 AM :Debug: File does not exist, creating new:
+/Users/skelo/Desktop/local/240sx/ECU/powerhouse/CurrentTune.msq
+4/9/16 1:18:12 AM :Debug: File does not exist, creating new:
+/Users/skelo/Desktop/local/240sx/ECU/powerhouse/restorePoints/powerhouse_2016-04-09_01.18.12.msq
+4/9/16 1:18:12 AM :Info: powerhouse Restore point saved to: powerhouse_2016-04-09_01.18.12.msq
+4/9/16 1:18:13 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:18:13 AM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/9/16 1:18:15 AM :Debug: re-initializing driver in loop
+4/9/16 1:18:16 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:18:16 AM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/9/16 1:18:18 AM :Debug: re-initializing driver in loop
+4/9/16 1:18:18 AM :Debug: Flush lasted: 0ms.
+4/9/16 1:18:18 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:18:18 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:18:18 AM :Debug: goOffline about to stopProcessing, Time:0
+4/9/16 1:18:18 AM :Debug: currentPort == null:true
+4/9/16 1:18:18 AM :Debug: goOffline closed port, Time:0
+4/9/16 1:18:19 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:18:19 AM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-FT8WGU26
+Please check your Communications Settings. 
+4/9/16 1:18:21 AM :Debug: powerhouse ComThread stopped
+4/9/16 1:18:21 AM :Debug: goOffline comm thread stopped, Time:2643
+4/9/16 1:18:21 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:18:35 AM :Debug: Directory Selected: /Users/skelo/Desktop/local/240sx/ECU/ts_project
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.efiAnalytics.tunerStudio.panels.ac.b(Unknown Source)
+	at com.efiAnalytics.ui.aY.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:339)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:276)
+	at java.awt.Component.firePropertyChange(Component.java:8287)
+	at javax.swing.JFileChooser.setSelectedFile(JFileChooser.java:481)
+	at javax.swing.JFileChooser.setSelectedFiles(JFileChooser.java:510)
+	at com.apple.laf.AquaFileChooserUI$SelectionListener.valueChanged(AquaFileChooserUI.java:582)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:167)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:147)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:194)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:388)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:398)
+	at javax.swing.DefaultListSelectionModel.removeSelectionIntervalImpl(DefaultListSelectionModel.java:559)
+	at javax.swing.DefaultListSelectionModel.clearSelection(DefaultListSelectionModel.java:403)
+	at javax.swing.JTable.clearSelection(JTable.java:2075)
+	at com.apple.laf.AquaFileChooserUI.openDirectory(AquaFileChooserUI.java:625)
+	at com.apple.laf.AquaFileChooserUI$DoubleClickListener.mouseClicked(AquaFileChooserUI.java:650)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+	at java.awt.Component.processMouseEvent(Component.java:6417)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4288)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:205)
+	at java.awt.Dialog$1.run(Dialog.java:1049)
+	at java.awt.Dialog$3.run(Dialog.java:1101)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Dialog.show(Dialog.java:1099)
+	at javax.swing.JFileChooser.privateShowDialog(JFileChooser.java:758)
+	at javax.swing.JFileChooser.showDialog(JFileChooser.java:721)
+	at javax.swing.JFileChooser.showOpenDialog(JFileChooser.java:626)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.b(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.cB.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2028)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2351)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:389)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:809)
+	at com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:137)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:850)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+4/9/16 1:18:36 AM :Debug: Directory Selected: /Users/skelo/Desktop/local/240sx/ECU/ts_project
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.efiAnalytics.tunerStudio.panels.ac.b(Unknown Source)
+	at com.efiAnalytics.ui.aY.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:339)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:276)
+	at java.awt.Component.firePropertyChange(Component.java:8287)
+	at javax.swing.JFileChooser.setSelectedFile(JFileChooser.java:481)
+	at javax.swing.JFileChooser.setSelectedFiles(JFileChooser.java:510)
+	at com.apple.laf.AquaFileChooserUI$SelectionListener.valueChanged(AquaFileChooserUI.java:582)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:167)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:147)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:194)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:388)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:398)
+	at javax.swing.DefaultListSelectionModel.removeSelectionIntervalImpl(DefaultListSelectionModel.java:559)
+	at javax.swing.DefaultListSelectionModel.clearSelection(DefaultListSelectionModel.java:403)
+	at javax.swing.JTable.clearSelection(JTable.java:2075)
+	at com.apple.laf.AquaFileChooserUI.openDirectory(AquaFileChooserUI.java:625)
+	at com.apple.laf.AquaFileChooserUI$DoubleClickListener.mouseClicked(AquaFileChooserUI.java:650)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+	at java.awt.Component.processMouseEvent(Component.java:6417)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4288)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:205)
+	at java.awt.Dialog$1.run(Dialog.java:1049)
+	at java.awt.Dialog$3.run(Dialog.java:1101)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Dialog.show(Dialog.java:1099)
+	at javax.swing.JFileChooser.privateShowDialog(JFileChooser.java:758)
+	at javax.swing.JFileChooser.showDialog(JFileChooser.java:721)
+	at javax.swing.JFileChooser.showOpenDialog(JFileChooser.java:626)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.b(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.cB.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2028)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2351)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:389)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:809)
+	at com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:137)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:850)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+4/9/16 1:18:37 AM :Debug: Directory Selected: /Users/skelo/Desktop/local/240sx/ECU/ts_project
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.efiAnalytics.tunerStudio.panels.ac.b(Unknown Source)
+	at com.efiAnalytics.ui.aY.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:339)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:276)
+	at java.awt.Component.firePropertyChange(Component.java:8287)
+	at javax.swing.JFileChooser.setSelectedFile(JFileChooser.java:481)
+	at javax.swing.JFileChooser.setSelectedFiles(JFileChooser.java:510)
+	at com.apple.laf.AquaFileChooserUI$SelectionListener.valueChanged(AquaFileChooserUI.java:582)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:167)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:137)
+	at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:668)
+	at javax.swing.plaf.basic.BasicTableUI$Handler.setValueIsAdjusting(BasicTableUI.java:923)
+	at javax.swing.plaf.basic.BasicTableUI$Handler.mouseReleased(BasicTableUI.java:1136)
+	at javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseReleased(BasicTableUI.java:772)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:205)
+	at java.awt.Dialog$1.run(Dialog.java:1049)
+	at java.awt.Dialog$3.run(Dialog.java:1101)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Dialog.show(Dialog.java:1099)
+	at javax.swing.JFileChooser.privateShowDialog(JFileChooser.java:758)
+	at javax.swing.JFileChooser.showDialog(JFileChooser.java:721)
+	at javax.swing.JFileChooser.showOpenDialog(JFileChooser.java:626)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.b(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.cB.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2028)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2351)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:389)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:809)
+	at com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:137)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:850)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+4/9/16 1:18:39 AM :Debug: Directory Selected: /Users/skelo/Desktop/local/240sx/ECU/ts_project
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.efiAnalytics.tunerStudio.panels.ac.b(Unknown Source)
+	at com.efiAnalytics.ui.aY.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:339)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:276)
+	at java.awt.Component.firePropertyChange(Component.java:8287)
+	at javax.swing.JFileChooser.setSelectedFile(JFileChooser.java:481)
+	at javax.swing.JFileChooser.setSelectedFiles(JFileChooser.java:510)
+	at com.apple.laf.AquaFileChooserUI$SelectionListener.valueChanged(AquaFileChooserUI.java:582)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:167)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:147)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:194)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:388)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:398)
+	at javax.swing.DefaultListSelectionModel.removeSelectionIntervalImpl(DefaultListSelectionModel.java:559)
+	at javax.swing.DefaultListSelectionModel.clearSelection(DefaultListSelectionModel.java:403)
+	at javax.swing.JTable.clearSelection(JTable.java:2075)
+	at com.apple.laf.AquaFileChooserUI.openDirectory(AquaFileChooserUI.java:625)
+	at com.apple.laf.AquaFileChooserUI$DoubleClickListener.mouseClicked(AquaFileChooserUI.java:650)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+	at java.awt.Component.processMouseEvent(Component.java:6417)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4288)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:205)
+	at java.awt.Dialog$1.run(Dialog.java:1049)
+	at java.awt.Dialog$3.run(Dialog.java:1101)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Dialog.show(Dialog.java:1099)
+	at javax.swing.JFileChooser.privateShowDialog(JFileChooser.java:758)
+	at javax.swing.JFileChooser.showDialog(JFileChooser.java:721)
+	at javax.swing.JFileChooser.showOpenDialog(JFileChooser.java:626)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.b(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.cB.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2028)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2351)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:389)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:809)
+	at com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:137)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:850)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+4/9/16 1:18:40 AM :Debug: Directory Selected: /Users/skelo/Desktop/local/240sx/ECU/powerhouse
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.efiAnalytics.tunerStudio.panels.ac.b(Unknown Source)
+	at com.efiAnalytics.ui.aY.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:339)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:276)
+	at java.awt.Component.firePropertyChange(Component.java:8287)
+	at javax.swing.JFileChooser.setSelectedFile(JFileChooser.java:481)
+	at javax.swing.JFileChooser.setSelectedFiles(JFileChooser.java:510)
+	at com.apple.laf.AquaFileChooserUI$SelectionListener.valueChanged(AquaFileChooserUI.java:582)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:167)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:137)
+	at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:668)
+	at javax.swing.plaf.basic.BasicTableUI$Handler.setValueIsAdjusting(BasicTableUI.java:923)
+	at javax.swing.plaf.basic.BasicTableUI$Handler.mouseReleased(BasicTableUI.java:1136)
+	at javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseReleased(BasicTableUI.java:772)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:205)
+	at java.awt.Dialog$1.run(Dialog.java:1049)
+	at java.awt.Dialog$3.run(Dialog.java:1101)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Dialog.show(Dialog.java:1099)
+	at javax.swing.JFileChooser.privateShowDialog(JFileChooser.java:758)
+	at javax.swing.JFileChooser.showDialog(JFileChooser.java:721)
+	at javax.swing.JFileChooser.showOpenDialog(JFileChooser.java:626)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.a(Unknown Source)
+	at com.efiAnalytics.ui.aP.b(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.j.a(Unknown Source)
+	at com.efiAnalytics.tunerStudio.cB.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2028)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2351)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:389)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:809)
+	at com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:137)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:850)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6414)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6179)
+	at java.awt.Container.processEvent(Container.java:2084)
+	at java.awt.Component.dispatchEventImpl(Component.java:4776)
+	at java.awt.Container.dispatchEventImpl(Container.java:2142)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4618)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4279)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4209)
+	at java.awt.Container.dispatchEventImpl(Container.java:2128)
+	at java.awt.Window.dispatchEventImpl(Window.java:2492)
+	at java.awt.Component.dispatchEvent(Component.java:4604)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:717)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:690)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:687)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+4/9/16 1:18:47 AM :Info: Skip Restore Point for 'powerhouse' because nothing changed since: powerhouse_2016-04-09_01.18.12.msq
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for tempTable! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for clt0! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for mat0! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for IdleHyst! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for fastIdleT! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for egoTemp! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for pwmidle_clt_temps! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for pwmidle_crank_clt_temps! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for matTemps! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for matCorrTemps! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for temp_table_p5! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for fc_clt! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for N2OClt! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for RevLimLookup! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for idleadvance_clt! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for pwmidle_cl_initialvalue_matorclt! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: MSQ Units Mismatch for matCorrTemps2! ¡F found in current configuration, ¡C found in MSQ, values were converted to ¡F.
+4/9/16 1:18:47 AM :Info: Tune opened, 364 bytes updated. File:/Users/skelo/Desktop/local/240sx/ECU/ts_project/powerhouse-final.msq
+4/9/16 1:18:47 AM :Debug: Flush lasted: 0ms.
+4/9/16 1:19:01 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:19:03 AM :Debug: Monitoring /dev/cu.usbserial-FT8WGU26 @ 115200 baud for controllers.
+4/9/16 1:19:03 AM :Debug: Started new CommThread for powerhouse
+4/9/16 1:19:03 AM :Info: Comm Manager for powerhouse Started
+4/9/16 1:19:03 AM :Info: Started Comms Watchdog
+4/9/16 1:19:03 AM :Debug: Comm Read Thread Change! Old Thread:COMM Thread91777.8032468692, new Thread:COMM Thread32746.237478855644
+4/9/16 1:19:04 AM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+4/9/16 1:19:04 AM :Info: Target device is local, using localBlockingFactors
+4/9/16 1:19:05 AM :Info: Communicating with MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:19:05 AM :Debug: Reading ECU Data, 0.0 complete
+4/9/16 1:19:05 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:19:05 AM :Info:    CRC from controller page 1:xF9 x08 xB9 x82                                                       ....
+4/9/16 1:19:05 AM :Info:    Local Data CRC for page 1: xB1 xEA x40 x14                                                       ..@.
+4/9/16 1:19:05 AM :Debug: Read page time: 205ms.
+4/9/16 1:19:05 AM :Info: Checksum page 1 data read: xF9 x08 xB9 x82                                                       ....
+4/9/16 1:19:05 AM :Debug: Reading ECU Data, 0.14285714285714285 complete
+4/9/16 1:19:05 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:19:05 AM :Info:    CRC from controller page 2:x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:19:05 AM :Info:    Local Data CRC for page 2: x9B xD6 x69 x26                                                       ..i&
+4/9/16 1:19:05 AM :Debug: Read page time: 206ms.
+4/9/16 1:19:05 AM :Info: Checksum page 2 data read: x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:19:05 AM :Debug: Reading ECU Data, 0.2857142857142857 complete
+4/9/16 1:19:05 AM :Debug: CRC matches for page 3:xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:19:05 AM :Info: CrC matched skipped controller read on page:2
+4/9/16 1:19:05 AM :Debug: Reading ECU Data, 0.42857142857142855 complete
+4/9/16 1:19:05 AM :Debug: CRC matches for page 4:x10 xDF xDF x5F                                                       ..._
+4/9/16 1:19:05 AM :Info: CrC matched skipped controller read on page:3
+4/9/16 1:19:05 AM :Debug: Reading ECU Data, 0.5714285714285714 complete
+4/9/16 1:19:05 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:19:05 AM :Info:    CRC from controller page 5:x17 x01 xD0 xE7                                                       ....
+4/9/16 1:19:05 AM :Info:    Local Data CRC for page 5: x4C x9F x32 x24                                                       L.2$
+4/9/16 1:19:06 AM :Debug: Read page time: 204ms.
+4/9/16 1:19:06 AM :Info: Checksum page 5 data read: x17 x01 xD0 xE7                                                       ....
+4/9/16 1:19:06 AM :Debug: Reading ECU Data, 0.7142857142857143 complete
+4/9/16 1:19:06 AM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+4/9/16 1:19:06 AM :Info: CrC matched skipped controller read on page:5
+4/9/16 1:19:06 AM :Debug: Reading ECU Data, 0.8571428571428571 complete
+4/9/16 1:19:06 AM :Debug: CRC matches for page 7:xFF x6E xAB xED                                                       .n..
+4/9/16 1:19:06 AM :Info: CrC matched skipped controller read on page:6
+4/9/16 1:19:06 AM :Debug: Reading ECU Data, 1.0 complete
+4/9/16 1:19:06 AM :Debug: Read All Data
+4/9/16 1:19:06 AM :Debug: isBlank Time: 0 ms.
+4/9/16 1:19:06 AM :Debug: DiffTime: 6 ms.
+4/9/16 1:19:06 AM :Info: dr: 0:94
+4/9/16 1:19:06 AM :Debug: Range Sort Time: 1
+4/9/16 1:28:23 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:28:23 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:28:24 AM :Debug: goOffline about to stopProcessing, Time:251
+4/9/16 1:28:24 AM :Debug: goOffline Notified offline, Time:256
+4/9/16 1:28:24 AM :Debug: currentPort == null:false
+4/9/16 1:28:24 AM :Info: Removed Port from cache
+4/9/16 1:28:24 AM :Debug: powerhouse ComThread stopped
+4/9/16 1:28:24 AM :Info: Successfully Closed Port
+4/9/16 1:28:24 AM :Debug: goOffline closed port, Time:862
+4/9/16 1:28:24 AM :Debug: goOffline comm thread stopped, Time:862
+4/9/16 1:28:24 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:28:24 AM :Info: Stopped Comms Watchdog
+4/9/16 1:30:33 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+4/9/16 1:30:34 AM :Debug: Monitoring /dev/cu.usbserial-FT8WGU26 @ 115200 baud for controllers.
+4/9/16 1:30:34 AM :Debug: Started new CommThread for powerhouse
+4/9/16 1:30:34 AM :Info: Comm Manager for powerhouse Started
+4/9/16 1:30:34 AM :Info: Started Comms Watchdog
+4/9/16 1:30:34 AM :Debug: Comm Read Thread Change! Old Thread:COMM Thread32746.237478855644, new Thread:COMM Thread15277.364780293601
+4/9/16 1:30:35 AM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+4/9/16 1:30:35 AM :Info: Target device is local, using localBlockingFactors
+4/9/16 1:30:36 AM :Info: Communicating with MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:30:36 AM :Debug: Reading ECU Data, 0.0 complete
+4/9/16 1:30:36 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:30:36 AM :Info:    CRC from controller page 1:xF9 x08 xB9 x82                                                       ....
+4/9/16 1:30:36 AM :Info:    Local Data CRC for page 1: xB1 xEA x40 x14                                                       ..@.
+4/9/16 1:30:36 AM :Debug: Read page time: 204ms.
+4/9/16 1:30:36 AM :Info: Checksum page 1 data read: xF9 x08 xB9 x82                                                       ....
+4/9/16 1:30:36 AM :Debug: Reading ECU Data, 0.14285714285714285 complete
+4/9/16 1:30:36 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:30:36 AM :Info:    CRC from controller page 2:x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:30:36 AM :Info:    Local Data CRC for page 2: x9B xD6 x69 x26                                                       ..i&
+4/9/16 1:30:37 AM :Debug: Read page time: 205ms.
+4/9/16 1:30:37 AM :Info: Checksum page 2 data read: x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:30:37 AM :Debug: Reading ECU Data, 0.2857142857142857 complete
+4/9/16 1:30:37 AM :Debug: CRC matches for page 3:xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:30:37 AM :Info: CrC matched skipped controller read on page:2
+4/9/16 1:30:37 AM :Debug: Reading ECU Data, 0.42857142857142855 complete
+4/9/16 1:30:37 AM :Debug: CRC matches for page 4:x10 xDF xDF x5F                                                       ..._
+4/9/16 1:30:37 AM :Info: CrC matched skipped controller read on page:3
+4/9/16 1:30:37 AM :Debug: Reading ECU Data, 0.5714285714285714 complete
+4/9/16 1:30:37 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:30:37 AM :Info:    CRC from controller page 5:x17 x01 xD0 xE7                                                       ....
+4/9/16 1:30:37 AM :Info:    Local Data CRC for page 5: x4C x9F x32 x24                                                       L.2$
+4/9/16 1:30:37 AM :Debug: Read page time: 204ms.
+4/9/16 1:30:37 AM :Info: Checksum page 5 data read: x17 x01 xD0 xE7                                                       ....
+4/9/16 1:30:37 AM :Debug: Reading ECU Data, 0.7142857142857143 complete
+4/9/16 1:30:37 AM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+4/9/16 1:30:37 AM :Info: CrC matched skipped controller read on page:5
+4/9/16 1:30:37 AM :Debug: Reading ECU Data, 0.8571428571428571 complete
+4/9/16 1:30:37 AM :Debug: CRC matches for page 7:xFF x6E xAB xED                                                       .n..
+4/9/16 1:30:37 AM :Info: CrC matched skipped controller read on page:6
+4/9/16 1:30:37 AM :Debug: Reading ECU Data, 1.0 complete
+4/9/16 1:30:37 AM :Debug: Read All Data
+4/9/16 1:30:37 AM :Debug: isBlank Time: 0 ms.
+4/9/16 1:30:37 AM :Debug: DiffTime: 4 ms.
+4/9/16 1:30:37 AM :Info: dr: 0:94
+4/9/16 1:30:37 AM :Debug: Range Sort Time: 1
+4/9/16 1:30:39 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:30:39 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:30:39 AM :Debug: goOffline about to stopProcessing, Time:251
+4/9/16 1:30:39 AM :Debug: goOffline Notified offline, Time:256
+4/9/16 1:30:39 AM :Debug: currentPort == null:false
+4/9/16 1:30:39 AM :Info: Removed Port from cache
+4/9/16 1:30:39 AM :Debug: powerhouse ComThread stopped
+4/9/16 1:30:39 AM :Info: Successfully Closed Port
+4/9/16 1:30:39 AM :Debug: goOffline closed port, Time:357
+4/9/16 1:30:39 AM :Debug: goOffline comm thread stopped, Time:357
+4/9/16 1:30:39 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:30:39 AM :Info: Stopped Comms Watchdog
+4/9/16 1:30:49 AM :Debug: TuneLog Editor set text
+4/9/16 1:30:49 AM :Debug: File does not exist, creating new:
+/Users/skelo/Desktop/local/240sx/ECU/powerhouse/restorePoints/powerhouse_2016-04-09_01.30.49.msq
+4/9/16 1:30:49 AM :Info: powerhouse Restore point saved to: powerhouse_2016-04-09_01.30.49.msq
+4/9/16 1:30:50 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:30:50 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:30:50 AM :Debug: goOffline about to stopProcessing, Time:0
+4/9/16 1:30:50 AM :Debug: currentPort == null:true
+4/9/16 1:30:50 AM :Debug: goOffline closed port, Time:0
+4/9/16 1:30:50 AM :Debug: goOffline comm thread stopped, Time:0
+4/9/16 1:30:50 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:30:50 AM :Debug: removing Configuration: powerhouse
+4/9/16 1:30:52 AM :Debug: Opening project: /Users/skelo/Desktop/local/240sx/ECU/ts_project
+4/9/16 1:30:52 AM :Debug: Filtered ConfigurationOptionGroup in 3ms.
+4/9/16 1:30:52 AM :Info: Read file canPcVariables.ini: 0.0ms
+4/9/16 1:30:52 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:30:52 AM :Info: Loading Trigger Wheels
+4/9/16 1:30:52 AM :Info: Loaded All known ini sections
+4/9/16 1:30:52 AM :Info: Parsed and validated ini "canPcVariables.ini" in : 1ms.
+4/9/16 1:30:52 AM :Info: Read file mainController.ini: 3.0ms
+4/9/16 1:30:52 AM :Info: Filtered ini: 3.0ms
+4/9/16 1:30:52 AM :Debug: ini signature: MS2Extra comms340tM
+4/9/16 1:30:52 AM :Info: Loading Trigger Wheels
+4/9/16 1:30:52 AM :Info: Loaded All known ini sections
+4/9/16 1:30:52 AM :Info: Parsed and validated ini "mainController.ini" in : 98ms.
+4/9/16 1:30:52 AM :Info: Read file ms2Supplement.ecu: 1.0ms
+4/9/16 1:30:52 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:30:52 AM :Info: Loading Trigger Wheels
+4/9/16 1:30:52 AM :Info: Loaded All known ini sections
+4/9/16 1:30:52 AM :Info: Parsed and validated ini "ms2Supplement.ecu" in : 17ms.
+4/9/16 1:30:52 AM :Info: Read file ms2ExtraDefaultTools.ini: 0.0ms
+4/9/16 1:30:52 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:30:52 AM :Info: Loading Trigger Wheels
+4/9/16 1:30:52 AM :Info: Loaded All known ini sections
+4/9/16 1:30:52 AM :Info: Parsed and validated ini "ms2ExtraDefaultTools.ini" in : 2ms.
+4/9/16 1:30:52 AM :Info: Read file ms2WueAnalyzeMaps.ecu: 0.0ms
+4/9/16 1:30:52 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:30:52 AM :Info: Loading Trigger Wheels
+4/9/16 1:30:52 AM :Info: Loaded All known ini sections
+4/9/16 1:30:52 AM :Info: Parsed and validated ini "ms2WueAnalyzeMaps.ecu" in : 2ms.
+4/9/16 1:30:52 AM :Debug: Adding Configuration: ts_project
+4/9/16 1:30:52 AM :Info: Tune opened, 6005 bytes updated. File:/Users/skelo/Desktop/local/240sx/ECU/ts_project/CurrentTune.msq
+4/9/16 1:30:52 AM :Debug: Flush lasted: 0ms.
+4/9/16 1:30:52 AM :Info: !!! Loaded config in 200
+4/9/16 1:30:53 AM :Info: Opening port: /dev/cu.usbserial-FT8WGU26
+MSmain: No check, last update check=Fri Apr 08 20:48:38 CDT 2016
+4/9/16 1:30:54 AM :Debug: Monitoring /dev/cu.usbserial-FT8WGU26 @ 115200 baud for controllers.
+4/9/16 1:30:54 AM :Debug: Started new CommThread for ts_project
+4/9/16 1:30:54 AM :Info: Comm Manager for ts_project Started
+4/9/16 1:30:54 AM :Info: Started Comms Watchdog
+4/9/16 1:30:54 AM :Debug: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread42362.90626319589
+4/9/16 1:30:54 AM :Info: !!! Activated Project 2305
+4/9/16 1:30:54 AM :Debug: High Speed Paint: true
+4/9/16 1:30:54 AM :Debug: !!! Opened Dash 2635
+4/9/16 1:30:54 AM :Info: Read file ms2ExtraVeAnalyzeMaps.ini: 0.0ms
+4/9/16 1:30:54 AM :Info: Filtered ini: 0.0ms
+4/9/16 1:30:54 AM :Info: Loading Trigger Wheels
+4/9/16 1:30:54 AM :Info: Loaded All known ini sections
+4/9/16 1:30:54 AM :Info: Parsed and validated ini "ms2ExtraVeAnalyzeMaps.ini" in : 2ms.
+4/9/16 1:30:55 AM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+4/9/16 1:30:55 AM :Info: Target device is local, using localBlockingFactors
+MSad: No check, last update check=Fri Apr 08 20:48:41 CDT 2016
+4/9/16 1:30:56 AM :Info: Communicating with MS2/Extra 3.4.0 release  20150710 09:00BST(c)KC/JSM/JB   uSM
+4/9/16 1:30:56 AM :Debug: Reading ECU Data, 0.0 complete
+4/9/16 1:30:56 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:30:56 AM :Info:    CRC from controller page 1:xF9 x08 xB9 x82                                                       ....
+4/9/16 1:30:56 AM :Info:    Local Data CRC for page 1: x18 xCA x56 x04                                                       ..V.
+4/9/16 1:30:56 AM :Debug: Read page time: 203ms.
+4/9/16 1:30:56 AM :Info: Checksum page 1 data read: xF9 x08 xB9 x82                                                       ....
+4/9/16 1:30:56 AM :Debug: Reading ECU Data, 0.14285714285714285 complete
+4/9/16 1:30:56 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:30:56 AM :Info:    CRC from controller page 2:x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:30:56 AM :Info:    Local Data CRC for page 2: x5F xFF x3F xED                                                       _.?.
+4/9/16 1:30:56 AM :Debug: Read page time: 203ms.
+4/9/16 1:30:56 AM :Info: Checksum page 2 data read: x69 x44 xA2 xB3                                                       iD..
+4/9/16 1:30:56 AM :Debug: Reading ECU Data, 0.2857142857142857 complete
+4/9/16 1:30:56 AM :Warning: CRC Mismatch!!!! 
+4/9/16 1:30:56 AM :Info:    CRC from controller page 3:xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:30:56 AM :Info:    Local Data CRC for page 3: xAF x89 x68 x4E                                                       ..hN
+4/9/16 1:30:57 AM :Debug: Read page time: 204ms.
+4/9/16 1:30:57 AM :Info: Checksum page 3 data read: xC6 x43 x0E xDB                                                       .C..
+4/9/16 1:30:57 AM :Debug: Reading ECU Data, 0.42857142857142855 complete
+4/9/16 1:30:57 AM :Debug: CRC matches for page 4:x10 xDF xDF x5F                                                       ..._
+4/9/16 1:30:57 AM :Info: CrC matched skipped controller read on page:3
+4/9/16 1:30:57 AM :Debug: Reading ECU Data, 0.5714285714285714 complete
+4/9/16 1:30:57 AM :Debug: CRC matches for page 5:x17 x01 xD0 xE7                                                       ....
+4/9/16 1:30:57 AM :Info: CrC matched skipped controller read on page:4
+4/9/16 1:30:57 AM :Debug: Reading ECU Data, 0.7142857142857143 complete
+4/9/16 1:30:57 AM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+4/9/16 1:30:57 AM :Info: CrC matched skipped controller read on page:5
+4/9/16 1:30:57 AM :Debug: Reading ECU Data, 0.8571428571428571 complete
+4/9/16 1:30:57 AM :Debug: CRC matches for page 7:xFF x6E xAB xED                                                       .n..
+4/9/16 1:30:57 AM :Info: CrC matched skipped controller read on page:6
+4/9/16 1:30:57 AM :Debug: Reading ECU Data, 1.0 complete
+4/9/16 1:30:57 AM :Debug: Read All Data
+4/9/16 1:30:57 AM :Debug: isBlank Time: 0 ms.
+4/9/16 1:30:57 AM :Debug: DiffTime: 3 ms.
+4/9/16 1:30:57 AM :Info: dr: 0:175
+4/9/16 1:30:57 AM :Debug: Range Sort Time: 0
+4/9/16 1:32:42 AM :Info: Logger Processor stopped.
+4/9/16 1:32:42 AM :Info: Logger Processor stopped.
+4/9/16 1:32:42 AM :Info: Logger Processor stopped.
+4/9/16 1:32:42 AM :Info: Logger Processor stopped.
+4/9/16 1:32:42 AM :Info: dr: 0:175
+4/9/16 1:32:42 AM :Debug: Range Sort Time: 0
+4/9/16 1:32:42 AM :Debug: High Speed Paint: true
+4/9/16 1:32:42 AM :Debug: Deactivated fast paint
+4/9/16 1:32:42 AM :Info: dr: 0:175
+4/9/16 1:32:42 AM :Debug: Range Sort Time: 0
+4/9/16 1:33:25 AM :Info: dr: 0:175
+4/9/16 1:33:25 AM :Debug: Range Sort Time: 0
+4/9/16 1:34:12 AM :Info: dr: 0:208
+4/9/16 1:34:12 AM :Debug: Range Sort Time: 2
+4/9/16 1:34:21 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:21 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:34 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:34 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:36 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:36 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:37 AM :Warning: Failed to get value for OutputChannel: tsNetHP using och:x01 x26 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x93 x93 x01 x01       .&..............
+x03 x41 x03 x42 x02 xBC x07 x08 x04 x28 x00 x76 x00 x4A x00 x4A       .A.B.....(.v.J.J
+x00 x00 x03 xE8 x03 xE8 x03 xE5 x00 x64 x00 x00 x00 x64 x03 xE8       .........d...d..
+x00 x64 x00 x64 x00 x64 x00 x00 x00 x00 x00 x15 x00 x00 x00 x5A       .d.d.d.........Z
+x00 x00 x03 x42 x00 x64 x00 x00 x00 x64 x00 x01 x00 x01 x00 x00       ...B.d...d......
+x00 x00 x01 xB5 x00 x00 x03 x75 x00 x00 x03 x42 x00 x00 x00 x00       .......u...B....
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x00 x01 x00 x2B x00 x00 x00 x00 x00 x64 x00 x00 x00 x00 x00 x00       ...+.....d......
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x03 x42 x03 x42 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x02 xBC       .B.B............
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 xC3 x00       ................
+x04                                                                   .
+4/9/16 1:34:38 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:38 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:38 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:38 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:38 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:38 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:39 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:39 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:39 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:39 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:39 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:39 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:40 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:40 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:41 AM :Warning: Failed to get value for OutputChannel: tsNetHP using och:x01 x29 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x93 x93 x01 x01       .)..............
+x03 x41 x03 x42 x02 xBC x07 x08 x04 x28 x00 x76 x00 x4A x00 x4A       .A.B.....(.v.J.J
+x00 x00 x03 xE8 x03 xE8 x03 xE5 x00 x64 x00 x00 x00 x64 x03 xE8       .........d...d..
+x00 x64 x00 x64 x00 x64 x00 x00 x00 x00 x00 x0B x00 x00 x00 x5A       .d.d.d.........Z
+x00 x00 x03 x42 x00 x64 x00 x00 x00 x64 x00 x01 x00 x01 x00 x00       ...B.d...d......
+x00 x00 x01 xB6 x00 x00 x03 x76 x00 x00 x03 x42 x00 x00 x00 x00       .......v...B....
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x00 x01 x00 x2B x00 x00 x00 x00 x00 x64 x00 x00 x00 x00 x00 x00       ...+.....d......
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x03 x42 x03 x42 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x02 xBC       .B.B............
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00       ................
+x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 x00 xC3 x00       ................
+x04                                                                   .
+4/9/16 1:34:43 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:43 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:46 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:46 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:34:48 AM :Error: Failed to write log record. Error:
+Apr 9, 2016 1:34:48 AM v.e a
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.remove(ArrayList.java:387)
+	at m.q.a(Unknown Source)
+	at m.q.b(Unknown Source)
+	at y.w.b(Unknown Source)
+	at y.P.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at i.f.b(Unknown Source)
+	at i.f.a(Unknown Source)
+	at i.at.a(Unknown Source)
+	at v.j.a(Unknown Source)
+	at v.b.a(Unknown Source)
+	at v.e.a(Unknown Source)
+	at i.B.a(Unknown Source)
+	at i.B.z(Unknown Source)
+	at e.f.f(Unknown Source)
+	at e.g.run(Unknown Source)
+4/9/16 1:38:46 AM :Info: Logger Processor stopped.
+4/9/16 1:38:46 AM :Info: dr: 0:208
+4/9/16 1:38:46 AM :Debug: Range Sort Time: 2
+4/9/16 1:38:52 AM :Info: dr: 0:175
+4/9/16 1:38:52 AM :Debug: Range Sort Time: 0
+4/9/16 1:39:07 AM :Debug: TuneLog Editor set text
+4/9/16 1:39:07 AM :Info: Skip Restore Point for 'ts_project' because nothing changed since: ts_project_240_2016-04-08_20.59.16.msq
+4/9/16 1:39:08 AM :Info: dr: 0:78
+4/9/16 1:39:08 AM :Debug: Range Sort Time: 0
+4/9/16 1:39:08 AM :Debug: goOffline Starting, Time:0
+4/9/16 1:39:08 AM :Info: Deactivated Turbo Baud, goOffline
+4/9/16 1:39:08 AM :Debug: goOffline about to stopProcessing, Time:250
+4/9/16 1:39:08 AM :Debug: goOffline Notified offline, Time:253
+4/9/16 1:39:08 AM :Debug: currentPort == null:false
+4/9/16 1:39:08 AM :Info: Removed Port from cache
+4/9/16 1:39:08 AM :Info: Successfully Closed Port
+4/9/16 1:39:08 AM :Debug: goOffline closed port, Time:354
+4/9/16 1:39:08 AM :Debug: Exception Caught during comms, type:t.b, message: Read timeout for send command: x00 x07 x72 x00 x07 x00 x00 x00 xD1 xA5 x6F x20 x2E                   ..r.......o..
+Expected 3 bytes, still no response after 452ms.
+4/9/16 1:39:08 AM :Debug: ts_project ComThread stopped
+4/9/16 1:39:08 AM :Debug: goOffline comm thread stopped, Time:914
+4/9/16 1:39:08 AM :Debug: No Remaining Queue Write instructions
+4/9/16 1:39:08 AM :Info: Stopped Comms Watchdog
+4/9/16 1:39:08 AM :Debug: removing Configuration: ts_project
+4/9/16 1:39:09 AM :Debug: Time to save Dash: 5 ms.
+MSmain: No check, last update check=Fri Apr 08 20:48:38 CDT 2016
+4/9/16 1:39:13 AM :Info: closed Called
+TunerStudio shutdown: Sat Apr 09 01:39:13 CDT 2016
+##############################################################
+
+
+
