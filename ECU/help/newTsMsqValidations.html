@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+  <style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+b {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+li {
+   padding-top:12px;
+}
+  </style>
+  <title>Audit Review Warnings</title>
+
+
+</head><body>
+<center>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td align="left" width="150"> <img src="efia_logo_sm.png" border="0"></td>
+      <td align="center">
+      <h1>Audit Review Warnings<br>
+      </h1>
+      </td>
+      <td align="right" width="150"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+</center>
+
+
+<br>
+
+<strong>Errors and Warning messages when loading tune settings</strong> - During the load of any tune settings file (msq),
+A series of validations are performed to insure all settings are valid to the constraints defined in the ECU Definition file by the
+Firmware developers and that the settings you are loading are of the same units as those for your project. <br>
+There is a distinct difference between errors and warnings, if the message is a warning, it is informational, a
+value was corrected and loaded. An Error is a critial problem that should be investigated further.
+
+<br>
+<strong>Warnings with version 1.14</strong> -
+<p>
+Starting with version 1.13 of TunerStudio, there are some additional data validations performed when loading an msq. This includes checking all values when loaded from an msq to make sure they are in range, i.e. >= min and <= max as defined in the firmwares ini. If a value is found out of range a warning is issued and the value is set to the closest valid value. i.e. if greater than max, it will be set to max.<br><br>
+
+However this now means that you will get a difference report when TunerStudio connects to the controller as the values no longer match the settings in your controller.<br>
+- If you select Send TunerStudio Settings, then the invalid values will be corrected and you should see nothing more.<br>
+- If you select use Controller Settings, then TunerStudio will take the invalid settings from the controller and next time you load the msq and connect to the controller, you will repeat this scenario.<br><br>
+
+If you are opening a project for the first time, or have just changed firmware, settings you are getting a warning on are basically not used, so nothing to worry about. Those are common warning messages the first time you load an msq.<br><br>
+</p>
+.<br>
+
+
+
+<ul>
+
+  <br>
+</ul>
+
+<p>
+</p>
+
+<hr>
+<center><font size="-1">©2010 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+
+</body></html>

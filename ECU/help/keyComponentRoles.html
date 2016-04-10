@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:14px;
+   font-weight:bold;
+   color:blue;
+}
+li {
+   padding-top:12px;
+}
+</style>
+<title>Key Component Roles</title>
+</head>
+
+<body>
+
+<center>
+<table width="100%">
+<tr>
+<td align="left" width="150">
+<img src="efia_logo_sm.png" border=0 >
+</td>
+<td align="center">
+<h1>Key Component Roles</h1>
+</td>
+<td width="150" align="right">
+
+</td>
+</tr>
+</table>
+<hr>
+</center>
+
+</center>
+
+<strong> TunerStudio, Firmware, ini files, What does What ???</strong><br>
+These short overviews will help explain how TunerStudio MS, The MegaSquirt Firmware and ECU Configuration files ( ini files ) work together while each having a specific role. The understanding of these key concepts will help get you to your answers more quickly.
+</p>
+
+
+<ul>
+<li><b>Controller Firmware - </b> Electronic Fuel Injection consists of electrical inputs and outputs. Input sensors provide electrical signals to the Controller; the Controller then provides electrical output to drive injectors, ignition coils, waste gates, relays, solenoids, etc… It is the job of the Controller hardware to convert these electrical inputs and outputs to and from digital values that can be acted upon in a programmatic way. The Firmware is the software that runs on the Controller Hardware reading inputs and instructing the hardware how to drive the attached engine components. All of the Controller’s capabilities must have the logic programmed as part of the firmware to support that feature. Some features available in TunerStudio are only available when using a firmware that has the supporting logic included. </b>
+</li>
+<li><b>TunerStudio MS - </b> The firmware depends on a good deal of configuration data to drive its functionality. This configuration data is stored on the controller in the MCU’s flash memory and is used by the firmware execution code during operation. A key part of setting up an EFI, Transmission Controller or GPIO Controller is some way to configure it for your specific needs; this is accomplished by adjusting the bits and bytes of the this configuration data for your purposes. TunerStudio communicates with the controller(s) allowing you to view and adjust this configuration data in human terms as numeric values, drop downs, Curve Graphs and 2D or 3D tables such as VE, AFR and Ignition Timing Tables. <br>
+TunerStudio also uses output data provided by the firmware for capturing to data logs and presenting in a graphical way as virtual dashboards. In some cases TunerStudio will even use this output data to perform statistical analysis and perform corrective tuning as with VE Analyze Live! <br>
+However, it is important to understand TunerStudio cannot configure a Controller to do anything other than what the Controllers Firmware has been developed to support.
+</li>
+<li><b>ECU Configuration Files, aka &quot;INI&quot; Files - </b> TunerStudio supports dozens of hardware and firmware combinations, to do so it depends on a Metadata design that allows TunerStudio to be configured to understand and work with any specific firmware. The ini files contain the information TunerStudio needs to work with any give firmware, it is essentially the contract between the firmware and TunerStudio created and maintained by the firmware developers. The ini file maps the controller memory addresses, provides command information and even defines the menu and dialog layouts. This is why when TunerStudio menu’s and dialogs will be very similar to MegaTune on the firmware MegaTune supports, they are both loading the same ini files with the same menus and dialogs defined.
+<br>With this in mind, you can see why it is critical that you have the right ini file for your firmware and TunerStudio checks to make sure the ini is correct every time it connects to a Controller.
+
+</li>
+<li><b>MegaLogViewer - </b> Allows you to view log files captured with TunerStudio. MegaLogViewer can not capture a log on its own, this requires TunerStudio, but once captured you can use MegaLogViewer to review many different fields captured. This field set will vary depending on your firmware as the fields captured to the data log are defined in the ini file.
+</li>
+</ul>
+</p>
+
+<p/>
+
+<hr>
+<center><font size="-1">
+&copy;2010 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+</body>
+</html>

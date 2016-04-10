@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+  <style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+b {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+li {
+   padding-top:12px;
+}
+  </style><title>File Structure</title></head><body>
+<center>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td align="left" width="150"> <img src="efia_logo_sm.png" border="0"></td>
+      <td align="center">
+      <h1>GPS Setup &amp; Support<br>
+      </h1>
+      </td>
+      <td align="right" width="150"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+</center>
+
+<strong><br>
+</strong><strong>GPS Support: </strong>You will find the integrated GPS
+support very helpful in many ways and quickly will not want a data log
+without it.
+Once a GPS is setup in TunerStudio, all the common GPS
+fields plus more like HP, Tq and Fuel consumption become fully integrated with your TunerStudio Project
+therefore are available for display on gauges and will be captured in
+your data logs. These fields include:<br>
+<ul>
+  <li>Latitude - GPS Latitude<br>
+  </li>
+  <li>Longitude - GPS Longitude<br>
+  </li>
+  <li>Heading - GPS Direction you are traveling<br>
+  </li>
+  <li>Accuracy - Reported GPS Accuracy based on visibility and quality of your GPS device</li>
+  <li>Altitude - GPS Altitude in Meters</li>
+  <li>GPS.PositionX - A relative position in meters along the East-West axis from the point in which you first aquired GPS lock.</li>
+  <li>GPS.PositionY - A relative position in meters along the East-West axis from the point in which you first aquired GPS lock.</li>
+  <li>GPS_Time - Standard GPS Time in ms.</li>
+  <li>GPS_Update - Will show as 1 each time the GPS data was updating
+for that log record, 0 if it is the same data as the last record.</li>
+  <li>MPH - Speed in MPH</li>
+  <li>KPH - Speed in KPH</li>
+</ul>
+For each of these Fields you will find a Gauge to display the values in
+real-time. To change a Gauge to show the GPS field, right click on it
+ans select:<br>
+Application Gauges --&gt; The gauge of your choice.<br>
+<br>
+
+<br>
+
+<strong>Supported GPS Devices</strong> - There are many GPS dongles you
+can purchase for your Laptop that should be compatible. The typical
+integration is a Virtual Com Port over USB or Bluetooth. However, you
+will find that as with most things, the quality will vary between
+devices, especially when used in a performance environment. The vast
+majority of GPS dongles are only capable of 1 update per second. While
+this is sufficent for the typical navigation system, it does not
+provide the data rate you will want in a performance motor sports
+situation or if you want a steady and reliable speedometer. It should
+also be noted that some devices take a great deal longer to aquire a
+satallite lock and operate with far fewer channels. <br>
+For your best experience you will want a GPS capable of 10 Hz, that is
+10 updates every second. That means that when you are capturing a data
+log, you will have updated GPS data 10 times more often for much finer
+grain positioning and speed logging. This also means the speed data can
+be used for HP calculation in TunerStudio and MegaLogViewer with far
+better results. <br>
+Recommended GPS Device:<br>
+<a href="https://www.efianalytics.com/products/BT-Q818XT.html?id=tshelp">QStarz BT-Q818XT</a>
+- 10 Hz, 66 Channel, 115200 baud that works over USB or Bluetooth so it
+can be used on your Android device as well. You can find GPS dongles
+for half the price, but they only deliver 1/10th the data. <br>
+<br>
+
+<strong></strong><br>
+
+<strong>GPS Setup:</strong><br>1st consult the documentation that came with your GPS. The documentation  will state the supported baud rate. <br>
+2nd, connect the GPS dongle to your PC. If it is connected via USB, make sure you have installed any required drivers. <br>
+If running Windows, a COM Port will be assigned to your device. It is
+sometimes easiest to find out what port was assigned by going into
+Windows Device Manager, <br>
+expand the node for "Ports (COM &amp;LPT)", there are typically only a
+couple devices there, one is most likely the port you use to connect to
+your ECU, so in this case, try the other.<br>
+- Bluetooth, If you are using bluetooth to connect, you will need to
+pair with the GPS, it will then be assigned a COM Port as well.<br>
+<br>
+<strong>TunerStudio Setup:</strong>
+Once you have your GPS device connected to your laptop, you will
+connect to it by selecting the proper com port and baud rate in GPS
+settings. <br>
+In TunerStudio on the Main Menu, select:<br>
+Communications --&gt; GPS Configurations<br>
+<br>
+In the GPS Configuration Dialog<br>
+- Check "GPS Enabled"<br>
+- Select the Connection Type "RS232 Serial Interface"<br>
+- Select the COM Port you found in Device Manager<br>
+- Set the baud found in your device documentation. For the QStars it is 115200, for most other GPS's it is 9600 baud.<br>
+<br>
+<p>
+You will then need to restart TunerStudio to have all the GPS channels available. <br>
+You can select any of the GPS gauges by right clicking on a gauge and selecting the gauge of choice under the GPS menu<br>
+<br>
+
+
+</p>
+
+<hr>
+<center><font size="-1">copyright 2013 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+
+</body></html>

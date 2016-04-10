@@ -1,0 +1,178 @@
+<html>
+
+<head>
+<style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:22px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:14px;
+   color:blue;
+}
+ul{
+   list-style-type:none
+}
+li {
+   padding-top:12px;
+}
+</style>
+</head>
+
+<body>
+
+<center>
+<h1>3D Table Editor</h1>
+
+
+<p >&nbsp;</p>
+<img src="images/3DTable.png">
+
+<p>&nbsp;</p>
+</center>
+
+<h3>Overview:</h3>
+
+<p>The 3D table view is displays the
+same data that is viewable in the standard Table Editor, only the data is
+displayed to show depth on all 3 axis’ (X, Y &amp; Z) compared to the standard
+editor that displays only the X &amp; Y axis with a numeric value for the Z
+axis. Typically the X, Y and Z axis’ represent the following:</p>
+<br>
+<font color="red">Warning! Some features only Available on Registered Versions. </font>
+
+<ol>
+<li><b>X Axis</b> - is usually RPM for most tables.</li>
+
+<li><b>Y Axis</b> - Is most commonly MAP in kPa, but will often be MAP/baro,
+TPS ADS, MAF volts or many others depending on your setup, firmware, settings
+and the table you are viewing. </li>
+
+<li><b>Z Axis</b> - Depends on the table type you
+are viewing, for a VE table the values will be VE (%) values, a Spark table
+will be the spark advance value, and AFR table the AFR and so on...</li>
+</ol>
+
+<p >&nbsp;</p>
+
+<h3>Usage:</h3>
+
+<p>The 3D editor primarily provide a visual represntation of the Z values
+(VE, Spark Advance,
+AFR...), and an easy way to adjust them as you see each value as it relates to the surrounding values.
+To adjust the table values, you must first
+select the coordinates you wish to edit, then increase or decrease the values.
+The selected table position will be highlighted with a red bulb:</p>
+
+
+<p align="center"><img src="images/3DTableCropped.png"></p>
+
+<p>You may move to different points on the table by clicking on them with the Mouse,
+or it is typically much more practical to use the keyboard for navigatation. The Hot keys to navigate
+are listed below. Points on the table that have been edited since you began will be highlighted with a
+yellow dot.
+</p>
+
+<h3>Hot Keys:</h3>
+<ul>
+<li><b>Up, Down, Left and Right Arrows - </b>Move the selected point.</li>
+<li><b>Increase & Decrease Z values</b></li>
+<ul>
+<li><b>Shift + (Up or Right) - </b>Increment selected point by 1</li>
+<li><b>Shift + (Down or Left) - </b>Decrement selected point by 1</li>
+<li><b>(&gt; or . or q or + or =) keys - </b>Any of these will increment selected point by 1</li>
+<li><b>(&lt; or , or w or - ) keys - </b>Any of these will decrement selected point by 1</li>
+<li><b>CTRL + Shift + (Up or Right or > or . or q or + or = ) - </b>Multiple increment selected point by a user set amount(default 5x)</li>
+<li><b>CTRL + Shift + (Down or Left  or < or , or w or - ) - </b>Multiple decrement selected point by a user set amount(default 5x)</li>
+<li><b>CTRL + any increment key - </b>Multiple increment selected point by a user set amount(default 5x)</li>
+<li><b>CTRL + any decrement key - </b>Multiple decrement selected point by a user set amount(default 5x)</li>
+</ul>
+<li><b>G - </b>Jump the selected point to the current active position.</li>
+<li><b>F - </b>Toggle Follow Mode on and off. When on, the selected point will follow the active point automatically.</li>
+<li><b>M - </b>Increase the Yaw Angle of the table by 10 degrees.</li>
+<li><b>K - </b>Decrease the Yaw Angle of the table by 10 degrees.</li>
+<li><b>N - </b>Increase the Roll Angle of the table by 10 degrees.</li>
+<li><b>J - </b>Decrease the Roll Angle of the table by 10 degrees.</li>
+<li><b>Z - </b>Show top down view of table.</li>
+</ul>
+
+<br>
+<br>
+<br>
+<h3>Features:</h3>
+<ul>
+<li><b>Color Shade - </b>When on, the table will be shaded with coloring based on the relative Z value. When off a
+wire frame style will be displayed.</li>
+<li><b>Even Spacing - </b>Normally each X and Y grid line is spaced relative to th value. The would place a
+4000 RPM line and 4200 RPM line much closer together than a 4000 RPM and 4500 RPM grid line. However, on some tables,
+such as Alpha-N VE Tables you can have high concentration areas and it may be easier to see the positions with
+allgrid lines evenly spaced independent of value, activating Even Spacing will provide this.</li>
+<li><b>Follow Mode - </b>If off, your selection point will be set only by navigating with the keyboard or mouse.
+By activating Follow Mode, the selected point will continually move to the point of the map the engine is running
+at. </li>
+<li><b>Z Axis Scale</b> - This slider to the right of the 3D table adjusts the relative height of the table. </li>
+<li><b>Yaw Adjuster</b> - This slider at the bottom of the 3D table adjusts Yaw Angle of the grid around the Z axis
+allowing a view from the front, sides or back. </li>
+<li><b>Roll Adjuster</b> - This slider to the left of the 3D table adjusts the roll angle of the table allowing for a
+view from the top or bottom. </li>
+</ul>
+<center><img src="images/3DTableZAxisAdjuster.png"></center>
+
+<br>
+<br>
+<br>
+<h3>Options:</h3>
+<table>
+<tr><td>
+<ul>
+<li><b>Smart Select Movement - </b>When on, the arrow keys will alter the selection direction so that the right
+key will alwasy move to the right most point, left to the left most and so on regardless of the table roll and yaw
+angle. If off, the Up/Down keys will always move up and dow the Y axis, left and right key always along the X axis.</li>
+<li><b>Show Active Table Values - </b>When on, the selected and active Z values will be displayed on the grid.</li>
+<li><b>Show Selected X &amp; Y Values - </b>When on, the selected X & Y values will be displayed along the appropriate axis.</li>
+<li><b>Increment All Active Cells - </b>This is off by default, but if on this only effects adjustments made when connected to
+a Controller and in <b>Follow Mode</b>. With these conditions met, increments of Z values will be applied to all table values
+that are currently active with a weight above the set value. This allows adjusting up to 4 table values at once if they are
+close enough to the active point. If off, only the selected point will be adjusted.</li>
+<li><b>Active Weight Threhold - </b>Only enabled if Increment All Active Cells is <b>On</b>. Allows for changing the
+weight used to determine what table values or Cells are adjusted. Valid values are 0 - 100% where 0% would
+always allow all 4 points adjust, 100% would only allow 1 point to move if it had a dead on hit.</li>
+<li><b>Select Active Color - </b>Allows youto change the color of the Active Point and Active text.
+By default the Active Point will be seen as a blue ball</li>
+<li><b>Select Selected Color - </b>Allows youto change the color of the Selected Point and Selected text.
+By default the Selected Point will be seen as a red ball</li>
+<li><b>CTRL Increment By - </b>When depressing the CTRL key while adjusting table values, they will adjust by
+multiple values (default 5), this option allows you to change the multiple.</li>
+</ul>
+</td><td>
+<center><img src="images/3DTableOptionsMenu.png"></center>
+</td>
+</tr>
+</table>
+
+
+<br>
+<hr>
+<center><font size="-1">
+&copy;2010 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+</body>
+
+</html>

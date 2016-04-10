@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+b {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+li {
+   padding-top:12px;
+}
+  </style>
+  <title>File Structure</title>
+
+  
+</head><body>
+<center>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td align="left" width="150"> <img src="efia_logo_sm.png" border="0"></td>
+      <td align="center">
+      <h1>Key Files and Folders<br>
+      </h1>
+      </td>
+      <td align="right" width="150"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+</center>
+
+<strong><br>
+</strong><strong>A note for everyone: </strong>It should be noted
+that,
+your Project folders and user preferences are located in a separate
+location from application files. This insures Projects and prefernces
+are never over written or modified by
+an application upgrade. <br>
+
+This remains true even if you do a full uninstall and
+reinstall in windows, your preferences and projects will remain in tact.<br>
+
+<br>
+
+<strong>TunerStudio, Folder Structure</strong> - A brief over view is
+for advanced users that may wish to modify any files related to a
+project.<br>
+
+This proveides an explaination of the folder structure for the
+application and key files within both the Application installation
+folder and the Project Folders<br>
+
+TS keeps all files for a project in the Project directory tree, so the
+project ini will never be replaced by an update. Actually since the
+beginning of TS the projects have always remained backward compatible
+with every upgrade.<br>
+
+<strong></strong><br>
+
+There are 2 key Folder structures, the project structure and the
+installation
+structure. Within these structures, the folders and files that might be
+of interest are covered below; looking at the
+installation 1st:<br>
+
+<br>
+
+<strong>[InstallationDir]:</strong><br>
+
+By default: c:\Program Files\EFIAnalytics\TunerStudioMS\<br>
+
+This directory and it's children are managed by the installer or update
+and the intention is that there are files referenced here, but never
+should be a need to edit or change anything within this structure. If
+you do, you will run the risk of having it over written on an upgrade.<br>
+
+<br>
+
+<span style="font-weight: bold;">Sub Folders of Installation</span>:<br>
+
+Dash - These are the template dashboards that are offered in the Load
+Gauge Cluster menu<br>
+
+config\ecuDef - the ini files are stored here. Projects do not
+reference these ini files, but on an ini mismatch, this is where TS
+looks for it first and these are the ini's that will show up in the
+Project Properties drop down. If you have a firmware not here, so you
+browse to a new ini that TS does not have, it will be copied to the
+Project structure and to this location if you have write permission to
+this folder. Win 7 and Vista do not have permission unless you are
+running as an administrator.<br>
+
+<br>
+
+<span style="font-weight: bold;">inc</span> - All table lookups and TS
+specific ini fragments are here. The inc
+files should not be edited here. If you need a new inc or to alter an
+inc, it should be placed in the Project structure. The ini's should not
+be edited here, if you want to alter the ini fragment, the fragment
+should be included in the Project's ini or projects custom.ini. These
+ini fragments are only loaded if the section was not found in the
+project ini or custom.ini<br>
+
+<br>
+
+<span style="font-weight: bold;">Projects</span> - these are only
+reference Projects that are copied to the
+TunerStudioProjects folder if there is no TunerStudioProjects folder.
+These projects should not be opened directly and projects should not be
+saved to this location as it is common to not have write access to this
+location as on Windows 7 and Vista.<br>
+
+<br>
+
+<span style="font-weight: bold;">help</span> - Help files that are
+displayed from the help menu and other areas in tha application are
+located here.<br>
+
+<br>
+
+The other folders within the installation folder are primarily binary
+files that TS owns and there should be no reason to modify, if modified
+they may be over written on an update.<br>
+
+<br>
+
+<b>[ProjectStructure]:</b><br>
+
+<span style="font-weight: bold;">TunerStudioProjects folder</span> - by
+default this is in your Documents folder
+on any Windows, or your home folder on other OS's. If you create and
+open a project in another location, TS will use that as your Projects
+folder. No files within the Project Structure will be updated with an
+update to TunerStudio.<br>
+
+<br>
+
+<span style="font-weight: bold;">TunerStudioLogFile.txt </span>- this
+will always be located in you current
+Projects folder, so if you change the Projects folder from
+TunerStudioProjects, this file will move too.<br>
+
+<br>
+
+<span style="font-weight: bold;">Sub folders</span> - Each Project will
+have a folder with the Projects name. If
+you rename a project folder, the Projects name will change and the
+project will be updated accordingly. All files under this Project
+folder are always referenced relatively, so you can copy the project to
+another computer or make a copy of it to another project with a
+different name.<br>
+
+<br>
+
+<span style="font-weight: bold;">Project Folder</span> - By default
+msq's will be saved to this top level
+Projects folder. Also logs for tables written to the controller will be
+written here. If "Automatically Load and Save Current Tune" is enabled
+as it is by default, there will be a CurrentTune.msq file in the
+Project Folder. All settings are saved to this file after ever page
+burn or on project close. This file will be loaded on Project open.<br>
+
+<br>
+
+<span style="font-weight: bold;">Subfolders Under the Project folder: </span><br>
+
+<span style="font-weight: bold;">DataLogs</span> - This is the default
+location for data logs captured by TS or
+converted from an SD log by TS.<br>
+
+<br>
+
+<span style="font-weight: bold;">dashboards</span> - all dashboards
+used by the project are stored here,
+whether it is main dashboards or secondary dashboards. It you use the
+Load Dashboard dialog, it will reference the dashboards in the
+[InstallFolder]\Dash\ folder, but once a dash is selected, it is copied
+here. For the main dashboards the naming is dashboard.dash for the
+front tab Main Dashboard, any additional dashboard you add will be
+named by the name you gave that tab with a .dash extension. Secondary
+Dashboards are saved by the dialog name.dash<br>
+
+<br>
+
+<span style="font-weight: bold;">inc</span> - this is where any inc
+files that are specific to your project or
+over-ride the one found in the [InstallDir]\inc\ folder. That makes
+this the proper place to put files like the inc files produced by
+EasyTherm if you are using an MS1 with non-GM sensors.<br>
+
+<br>
+
+<span style="font-weight: bold;">projectCfg</span> - this is where TS
+stores files that are specific to this
+project:<br>
+
+mainController.ini - this will be a copy of the ini file you selected
+on project creation and is the ini that will be used when you open the
+project. This file is only written to by TS if you select a new ECU
+Definition(ini) file, it read on project open. Any changes to this file
+require a project reload to see. The fastest way to do a project reload
+is CTRL+SHIFT+F10<br>
+
+<br>
+
+<span style="font-weight: bold;">project.properties</span> - Project
+settings and user preferences
+specific to this project are stored in this file. Things like Comm
+Port, window
+positions, Configuration Settings are store in this folder. It is saved
+an over written every time you close the project.<br>
+
+<br>
+
+<span style="font-weight: bold;">custom.ini </span>- Optional file
+manually created if you wish to add ini scripting to the
+mainController.ini or over-ride something in the mainController.ini. By
+placing those changes in this file they will not be over-written if you
+change ECU definition files such as after a firmware upgrade.<br>
+
+<br>
+
+<br>
+
+<b>Tune Files</b>
+<br>
+There are several file types for saving your Tune Settings, that is
+settings you have on the controller for you setup. Here are the key
+Tuner Settings files:<br>
+<br>
+<span style="font-weight: bold;">msq</span> - File that contains all tune
+ settings from your MegaSquirt. This includes all tables, curves and 
+tune dialog settings. Between this file and your project settings, you 
+can fully restore your MegaSquirt. <br>
+<br>
+<span style="font-weight: bold;">msqpart </span>-
+ Only used in the TunerStudio 1.16 and higher, this file type is of the 
+same format as an msq, but used for saving subset of tune settings. In 
+TunerStudio there is now a concept of "dialog settings", where when you 
+have any tune dialog open you can select to save or load just the 
+settings in that dialog.  The msqpart extension is used to differentiate
+ it from an msq which would contain all settings for that firmware.<br>
+<br>
+<span style="font-weight: bold;">table </span>-
+ .table format is used for saving a table to import elsewhere or another
+ application such as MLV. It is an xml file that contains only the table
+ X, Y and Z values. This is often used for backing up just your table, 
+or exporting a table to import for a new firmware. The table values when
+ store in a .table file are not tied to an specific format and if you 
+import a .table file into a table of a different size, the values of all
+ axis will automatically be interpolated.<br>
+<br>
+<span style="font-weight: bold;">vex </span>-
+ same as .table but deprecated do to limitations of the format. use of 
+.table is preferred. vex is still available for interoperability with 
+older apps.<br>
+<br>
+<br>
+<span style="font-weight: bold;">More on Save / Load dialog tune</span><br>
+When you have any tune dialog open in TunerStudio 1.16 and higher, there is a File menu in the dialog with:<br>
+File --&gt; Save dialog tune<br>
+and<br>
+File --&gt; Load dialog tune<br>
+<br>
+If
+ you select "Save dialog tune", TunerStudio will save only any settings 
+you see in the dialog, they will have an msqpart extension to 
+differentiate it from and msq which would typically have all the 
+settings in the controller. "Save dialog settings" will allow you to 
+save specific parts of your tune settings to an msqpart file. So you can
+ save just the ignition settings for example, then use them later as a 
+starting point to set up a car with a similar ignition and firmware.<br>
+<br>
+Selecting
+ "Load dialog settings" also only will alter the settings within that 
+dialog. You can load either an msqpart or a full msq. If you load a full
+ msq using "load dialog settings" TunerStudio will still only load the 
+settings on that dialog, no other settings will be changed. So this 
+allows you to load bits an pieces of various msq's.<br>
+
+
+<ul>
+
+  <br>
+</ul>
+
+<p>
+</p>
+
+<hr>
+<center><font size="-1">©2010 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+
+</body></html>

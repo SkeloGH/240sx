@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:14px;
+   font-weight:bold;
+   color:blue;
+}
+li {
+   padding-top:12px;
+}
+</style><title>TunerStudio Upgrade! - Learn More</title></head><body>
+
+<center>
+<table width="100%">
+<tbody><tr>
+<td align="left" width="150">
+<img src="efia_logo_sm.png" border="0">
+</td>
+<td align="center">
+<h1>Creating a TunerStudio Project</h1>
+</td>
+<td align="right" width="150">
+
+      <br>
+</td>
+</tr>
+</tbody></table>
+<hr>
+</center>
+
+
+
+<p></p><h3>TunerStudio Projects:</h3> To present raw binary data found in the controller in an easy to read and edit fashion,
+TunerStudio must relate the information in several key files. To accomplish this TunerStudio uses a project.
+This project will tie together the firmware ini file(s), your settings, any inc files specific to your setup along
+with your dashboards and preferences and settings for TunerStudio.
+<br><br>
+<strong>Note:</strong> TunerStudio does have the capability to open an
+msq without a project,
+this handy feature allows you to quickly view settings from any msq you
+may have down loaded or gotten from a friend.
+However, TunerStudio does this by creating a temporary project and will
+not enable communications. You should always create a project
+if you are going to connect to and configure a controller.
+<p></p>
+
+<hr>
+
+<a name="createProject"><img src="images/newProjectMenu.png" align="right"><!--<img src="images/newProjectMenuProjOpen.png" align="right"> -->
+</a><h3><a name="createProject">Creating a Project</a></h3>
+<p>
+<a name="createProject">A project is created in few simple steps. Start by opening the "New Project" Dialog.<br>
+From the main menu:<br>
+File --&gt; "New Project"<br>
+or<br>
+Press CTRL+N<br>
+The "New Project" Dialog will appear.
+</a></p>
+<hr>
+<h3><a name="createProject">Page 1:</a></h3>
+<center>
+<a name="createProject"><img src="images/newProjectPage1.png">
+</a></center>
+<p>
+</p><ul>
+<li><a name="createProject"><b>Name - </b>You can give the project any
+name using characters allowed by your operating system. The Project
+Folder will also take on this name.</a></li>
+<li><a name="createProject"><b>Project Directory - </b>This does not normally need to be changed. By default your project will be created in:
+	</a><ol type="i">
+<a name="createProject">	</a><li><a name="createProject">On Windows: "My Documents\TunerStudioProjects\</a></li>
+<a name="createProject">	</a><li><a name="createProject">On Linux or OS X - ~/TunerStudioProjects/</a></li>
+<a name="createProject">	</a></ol>
+</li><li><a name="createProject"><b>ECU Definition - </b>Selecting the
+ECU Definition can be accomplished in 3 ways, Detect, Select from drop
+down or by selecting "Other" The Detect Process is the preferred
+approach, however if you do not have a controller or the detect process
+fails due to a port hang, you can use one of the alternative methods to
+selecting the ECU Definition file.</a></li>
+<a name="createProject">  	</a><ol type="i">
+<a name="createProject">  	</a><li><a name="createProject"><b>Detect - Preferred Approach. </b>If
+you have a controller available you can connect to it, power the
+controller up and click "Detect". TunerStudio will identify the
+firmware on your controller and select the appropriate ECU Definition
+file (ini) for your firmware if TunerStudio has it. If TunerStudio does
+not have the needed file, you will be prompted to browse to it through
+a File Dialog. This ini would have been provided with your firmware.</a></li>
+<a name="createProject">  	</a><li><a name="createProject"><b>Select from the list. </b>
+You must know the firmware signature, this is not always the same as
+the firmware version. The signature does not represent the firmware
+version, you must know what the firmware serial signature is. If you
+know the signature, look in the drop down list to see if TunerStudio
+already has it. If you do not see the signature for your firmware, you
+will need to use approach 3 "Other"</a></li>
+<a name="createProject">  	</a><li><a name="createProject"><b>Other. </b>
+- This method lets you specify the ini file you want to use, this is
+typically the one that came with your firmware. If you are using non
+mainstream firmware TunerStudio may not have the appropriate ini file.
+So, click "Other", the the "..." Button. When the File Dialog appears,
+browse to the ini file provided with your firmware.</a></li>
+<a name="createProject">  	</a></ol>
+</ul>
+<p></p>
+
+<hr>
+<h3><a name="createProject">Page 2 (Project Settings):</a></h3>
+<center>
+<a name="createProject"><img src="images/newProjectPage2.png">
+</a></center>
+<p>
+</p><ul>
+<li><a name="createProject"><b>Settings - </b>The settings available on
+this list will vary based on your firmware. Verify that what they are
+set to matches your set up. When unsure, the default value is likely
+fine.</a></li>
+</ul>
+<p></p>
+
+<hr>
+<h3><a name="createProject">Page 3 (Comm Settings):</a></h3>
+<center>
+<a name="createProject"><img src="images/newProjectPage3.png">
+</a></center>
+<p>
+</p><ul>
+<li><a name="createProject"><b>Comm Settings - </b>Select the correct
+port and baud for your computer. If you successfully detected the
+firmware these will already be set to the proper values. Clicking Test
+will check to see if you do have good communication with the
+controller, you will receive a Success or Failure response.</a></li>
+<li><a name="createProject"><b>  Note: </b>MS1 is always 9600 baud, MS2 is always 115200. If not set to the correct baud you will not get a successful response.</a></li>
+</ul>
+<p></p>
+
+<hr>
+<h3><a name="createProject">Page 4 (Dash Board Selection):</a></h3>
+<center>
+<a name="createProject"><img src="images/newProjectPage4.png">
+</a></center>
+<p>
+</p><ul>
+<li><a name="createProject"><b>Drop Down Slection - </b>The dashboards
+packaged with TunerStudio will be listed in the drop down. Select any
+that you would like to try. If using the registered version, this can
+be changed later or you can add additional tabs for many more
+dashboards..</a></li>
+<li><a name="createProject"><b>Other - </b>If you have another dash you
+may have downloaded or created, you can click "Other" and browes to the
+dash file. If the dash was not created on the same firmware you may
+need to correct OutputpuChannels on any gauges that have a red slash
+through it.</a></li>
+<li><a name="createProject"><b>  Note: </b>The Lite edition will always load the "Default" dash will alway be loaded on project open.</a></li>
+</ul>
+<p></p>
+
+
+<hr>
+<h3><a name="createProject">Finish:</a></h3>
+<center>
+<a name="createProject"><img src="images/finish.png">
+</a></center>
+<p>
+</p><ul>
+<li><a name="createProject"><b>Click "Finish" - </b> and your Project will be created with the input you provided.</a></li>
+</ul>
+<p></p>
+
+
+<p>
+</p><p>
+
+</p><hr>
+<center><a name="createProject"><font size="-1">
+©2010 </font></a><font size="-1"><a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+</body></html>

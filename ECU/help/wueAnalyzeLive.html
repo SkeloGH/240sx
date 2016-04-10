@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+  
+  <style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:16px;
+   color:blue;
+}
+strong {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:14px;
+   font-weight:bold;
+   color:blue;
+}
+li {
+   padding-top:12px;
+}
+  </style><title>VE Analyze Live!</title></head><body>
+<center>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td align="left" width="150"> <img src="efia_logo_sm.png" border="0"></td>
+      <td align="center">
+      <h1>Warm Up Enrichment Auto Tune</h1>
+      <h1>(WUE Analyze Live!)</h1>
+      </td>
+      <td align="right" width="150"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<br>
+<img style="width: 722px; height: 373px;" alt="WUE Analyze" src="images/WueAnalyzeSm.png" align="middle">
+</center>
+
+<center>
+<h3><a name="understanding">Understanding WUE Analyze</a></h3>
+</center>
+
+<h3>Overview:</h3>
+
+Tuning of Warmup carries some challenges that
+are somewhat different from the tuning your fuel tables. Where as when
+tuning your fuel tables you can collect data, make changes and observer
+the impact of those changes then readjust if needed,&nbsp; with warmu
+up enrichment you only get one try
+a day. Once it is warmed up, you probably
+don't get to start off with a completely cold engine again until
+tomorrow, even then how cold depends on your weather. This is what
+makes Warm up Enrichment (WUE) Tuning an ideal candidate for auto tune.
+Your laptop can capture all the data needed to dial in your WUE in as
+little as 1 to 2 passes.<br>
+
+<br>
+
+You may first want to familiarize yourself with the available settings
+in case you do need them, the default setting should work fine in the
+majority of cases.<br>
+
+Then go to the <a href="#usingWUEAnalyze">Using WUE Analyze</a>
+section for the simple steps to have
+WUE Analyze correct your WUE.<br>
+
+<br>
+
+<hr>
+<a name="primaryControls"><strong>Primary Controls:</strong><br>
+</a>
+<center><img style="width: 999px; height: 62px;" alt="WUE Analyze Controls" src="images/wueAnalyzeControls.png"></center>
+
+<ul>
+
+  <li><b>Update Controller checkbox</b> -
+(Only Available on some firmwares such as MegaSquirt 3.) When checked,
+WUE Analyze will update the controller periodically
+with the recommended values. It will act as if you are pressing the
+Apply button. <br>
+  </li>
+  <li><b>Apply Button</b> - When
+clicked, the
+recommended values will be written to the controller. When using
+firmwares that do not support Update Controller, Burn must then also be
+clicked for the new values to take effect. For WUE Analyze, this is
+typically only used when you have completed the warm up cycle or if you
+want to apply the recommended values after your ECU has been power
+cycled.<br>
+  </li>
+  <li><b>Burn / Save on ECU Button</b> - This signals the
+Controller to persist the values in RAM to Flash so they are stored for
+use after the controller is power cycled. When values are written to
+RAM, but not flash, however once the
+controller is power cycled they are lost and the values will be loaded
+from Flash. So this button should be clicked when you are finshed and
+what to keep you values.</li>
+  <li><b>Start / Stop Auto Tune Button</b> -
+Activates and deactivates WUE Analyze.</li>
+</ul>
+
+<hr>
+<a name="display"><strong>Display:</strong><br>
+</a>
+<center><img style="width: 586px; height: 336px;" alt="WUE Analyze Displays" src="images/WueAnalyzeDisplays.png" align="middle"><br>
+</center>
+
+This curve graph has 2 lines to display the
+current controller warm up enrichment settings and the generated
+recommended settings:
+<ul>
+
+  <li><b>Yellow Line</b> - Represents what
+is currently in the controller. This is the WUE settings the engine is
+currently running on.</li>
+  <li><b>Blue line</b> - Represents the
+recommended WUE curve that will be applied upon completion.</li>
+</ul>
+
+You will at some point also see dashed
+lines. They show the original position of these curves when the WUE
+session 1st began.<br>
+
+<br>
+
+<hr><a name="wueStats">
+<strong>WUE Analyze Stats:</strong><br>
+</a>
+<center><img style="width: 999px; height: 96px;" alt="WUE Analyze Stats" src="images/WueAnalyzeStats.png" align="middle"><br>
+</center>
+
+<ul>
+
+  <li>Various information is displayed to
+show data being collected and how much data is being filtered. Take
+note of the Active Filter, when a data filter is on, it will display
+what one in yellow to help bring it attension. While there is a filter
+lit in yellow, WUE analyzer is skipping the data that is currently
+being captured.<br>
+  </li>
+</ul>
+
+<br>
+
+<hr style="width: 100%; height: 2px;"><br>
+
+<a name="scatterPlots"><strong>Scatter Plots:</strong></a><br>
+
+<br>
+
+<table style="text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img style="width: 398px; height: 310px;" alt="WUE Error Plot" src="images/wueErrorScatterPlot.png"></td>
+      <td style="vertical-align: top;"><img style="width: 401px; height: 312px;" alt="Recommended WUE" src="images/wueRecommendScatterPlot.png"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<center><br>
+</center>
+
+The scatter plot provide a visual
+representation of the data being collected.<br>
+
+<ul>
+
+  <li>WUE Error vs Coolant - The percent
+error in target AFR is displayed through out the temperature range..</li>
+  <li>Recommended WUE Data - Displays the calculated recommended WUE
+through out the temperature range.</li>
+</ul>
+
+<br>
+
+<hr style="width: 100%; height: 2px;"><br>
+
+<a name="advancedSettings"><strong>Advanced Settings:<br>
+</strong></a>
+<div style="text-align: center;"><strong><img style="width: 402px; height: 328px;" alt="Advanced Settings" src="images/wueAdvancedSettings.png"></strong><br>
+<ul style="text-align: left;">
+  <li><b>AFR Temperature Adjustment to Lambda</b>
+- For most less radical engines targeting your standard stoich AFR is
+desireable. However, for various reasons you may want the engine to run
+more or less rich during warmup. Adjusting this curve allows you to
+raise or lower the target AFR during warmup. By Adjusting the curve
+down, the target AFR for that temperature will be lowered. For example
+if your target AFR at 32 degrees is 14.7:1 under normal condition and
+this table is set at -0.5, WUE Analyze will use 14.2:1 as the target
+AFR.<br>
+  </li>
+  <li><b>High Throttle Filter</b>
+- Sets a throttle threshold to filter data over. By default set to 15,
+so any throttle position over 15% will be filtered during a WUE Analyze
+Live session.</li>
+  <li><strong>Custom
+Filter </strong>- Allows you to set any valid expression that will
+filter additional input data.</li>
+  <li>AFR Targets - Opens or select what AFR target Table to use. By
+Default your normal running AFR table is used, but you can set this to
+a different one or custom TunerStudio table.<br>
+  </li>
+</ul>
+<div style="text-align: left;"><strong>Filters:</strong>
+</div>
+<ul style="text-align: left;">
+  <li><b>High Throttle Filter</b> - Sets a
+throttle threshold to filter data over. By default set to 15, so any
+throttle position over 15% will be filtered during a WUE Analyze Live
+session.</li>
+  <li><b>Custom Filter</b> - This allows the
+flexibility to create and apply any formula or mathematical expression
+using any outputchannels you wish to set conditions to filter VE
+Analyze input data.</li>
+</ul>
+<div style="text-align: left;"><strong>Reference Tables:</strong>
+</div>
+<ul>
+  <li style="text-align: left;"><span style="font-weight: bold;">AFR
+Targets</span> - Opens or select what AFR target Table to use. By
+Default
+your normal running AFR table is used, but you can set this to a
+different one or custom TunerStudio table.</li>
+  <li><br>
+  </li>
+</ul>
+<strong><br>
+<br>
+<br>
+</strong>
+<hr>
+<div style="text-align: left;"><a name="usingWUEAnalyze"><strong>Using
+WUE Analyze Live:</strong></a><br>
+</div>
+<div style="text-align: left;">Operation
+of WUE Analyze should begin with a cold engine. If it is not that cold
+this time of year, not to worry, you can use it on the warmup from what
+ever temperature it is and perhaps come back to it when the weather
+turns cooler. <br>
+<br>
+To begin using WUE Analyze Live:<br>
+</div>
+<ol style="text-align: left;">
+  <li>Power on your ECU</li>
+  <li>Connect TunerStudio, and go to the
+WUE Analyze Screen by clicking on the "Tune Analyze Live - Tune For
+You" tab. There will be a sub tab for WarmupEnrichment1, select that.</li>
+  <li>On the Warm up Enrichment Analyze tab,
+go ahead and click "Start
+Auto Tune". There will be steady active filters until the engine is
+started, so it will not begin processing the data.<br>
+  </li>
+  <li>Now proceed to start your engine. <br>
+  </li>
+  <li>Important! - Once your engine is running, try to maintain a
+steady RPM through the warmup process. Normally idle is good, but if
+you have an engine that does not yet want to idle while cold, hold the
+engine at a steady RPM from 1500 to 2500 RPM.</li>
+  <li>Wait and watch. See what changes are recommended until it gets up
+to running temperature.</li>
+  <li>Once the engine is warmed up, Do not turn off the engine. Review
+the recommendation to insure it appears correct. Then Click "Stop
+Autotune", then <span style="font-weight: bold;">Burn</span>.<span style="font-weight: bold;"><br>
+    </span></li>
+  <li>After Burn is clicked, the new Recommended WUE is saved to your
+ECU and you can turn off the engine. Try out your new WUE settings on
+the next warmup<span style="font-weight: bold;"></span></li>
+</ol>
+<br>
+<hr>
+<center><font size="-1">©2013 </font><font size="-1"><a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+</div>
+
+</body></html>

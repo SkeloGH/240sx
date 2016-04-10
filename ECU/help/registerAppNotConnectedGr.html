@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>Register Tune Gras Roots Tuner Software</title>
+
+
+
+
+  <style>
+            .popup {
+                position:absolute;
+                background-color:white;
+               }
+        </style>
+
+  <style>
+body {
+  background-color: white;
+  font-size: 12px;
+  color: darkgreen;
+  font-family: Arial;
+}
+a:link {
+  color: darkgreen;
+}
+a:visited {
+  color: darkgreen;
+}
+
+</style>
+
+  <script language="JavaScript">
+            function submitForm(){
+                var err = "";
+                if(document.userInfo.firstName.value == ""){
+                    err += "First Name\n";
+                }
+                if(document.userInfo.lastName.value == ""){
+                    err += "Last Name\n";
+                }
+                if(document.userInfo.email.value == ""){
+                    err += "eMail Address\n";
+                }
+
+                if(err!=""){
+                    alert("You must provide values for\n" +err);
+                    return;
+                }
+                if(document.userInfo.email.value != document.userInfo.emailVerify.value){
+                    alert("eMail addresses do not match!");
+                    return;
+                }
+                document.userInfo.submit();
+            }
+
+            function showLicense(){
+                var url = 'license.jsp?appName=' +document.userInfo.appName.value;
+                openIFrame('licenseDiv', '68%','30px','240px','240px', url)
+            }
+
+           function openIFrame(hldr,x,y,w,h,url) {
+               holder=document.getElementById(hldr); //wrap around div
+               holder.style.display='block';  // the div gets styled
+               holder.style.left=x;
+               holder.style.top=y;
+               holder.style.width=w;
+               IF=document.createElement('iframe');  // iframe is created in the DOM
+               IF.setAttribute('height', h);  // simple DOM methods
+               IF.setAttribute('width', w);
+               IF.setAttribute("src", url);
+               holder.appendChild(IF); // now we add it to the div
+               holder.innerHTML+='<button onclick="closeIF(this.parentNode)">Done</button>';
+             // final step is to put in additional controls
+           }
+           function closeIF(obj)
+             // the close is simple we just clear out the div
+           {
+              obj.innerHTML='';
+              obj.style.display='none';
+           }
+
+  </script></head><body style="color: white;" alink="green" link="darkgreen" vlink="darkgreen">
+<table style="width: 100%;">
+
+  <tbody>
+    <tr>
+      <td style="width: 100px;"> </td>
+      <td style="width: 583px; color: darkgreen;" align="center">
+      <img src="../config/grassrootSplash2.png" align="middle"> </td>
+      <td style="width: 120px;"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: center;">
+</div>
+
+<hr>
+<center>
+<h2 style="color: darkgreen;"><big>Grass Roots Tuner Registration</big><br>
+</h2>
+<div style="text-align: left;">
+<div style="text-align: left;">
+<div style="text-align: center;"><span style="color: darkgreen;">Before you begin using Grass Roots Tuner, you must register your purchase. </span><small><br>
+
+</small><span style="color: darkgreen;">This computer appears to not be connected to the internet. <br>
+<br>
+</span><span style="color: darkgreen;"></span></div>
+<span style="color: darkgreen;">In order to register you
+must either be connected to the internet on the computer running Grass Roots Tuner, or on a computer that is connected go to:</span><br>
+
+<span style="color: darkgreen;"></span><a href="http://www.efianalytics.com/grassroots/">http://www.efianalytics.com/grassroots/</a><small><br>
+</small>
+<span style="color: darkgreen;"><br>
+</span><span style="color: darkgreen;">After registering you will recieve an email with the required registration information. <br>
+You
+can enter the registration recieved in to computers not on the internet.</span><br>
+</div>
+<span style="color: darkgreen;"></span></div>
+<span style="color: darkgreen;"></span><br>
+</center>
+
+<hr>
+<center><font size="-1"><span style="color: darkgreen;">copyright
+2006-2010</span> <a href="http://www.efianalytics.com/" target="_new">EFI
+Analytics</a>
+</font></center>
+
+</body></html>

@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+  <style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+b {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+li {
+   padding-top:12px;
+}
+  </style><title>Audit Review Warnings</title></head><body>
+<center>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td align="left" width="150"> <img src="efia_logo_sm.png" border="0"></td>
+      <td align="center">
+      <h1>2D Table Help<br>
+      </h1>
+      </td>
+      <td align="right" width="150"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+</center>
+
+
+
+<p style="margin-bottom: 0in;">Using 2D tables and features.</p>
+<p style="margin-bottom: 0in;"><a href="#reBin">Table Re-Bin feature</a> <br>
+</p>
+<p style="margin-bottom: 0in;"><a href="#hotkey">Buttons, right-click menu and Hot keys</a></p>
+<p style="margin-bottom: 0in;"><a href="#telltail">History Tell Tail</a><br>
+   
+</p>
+<br><br>
+
+<strong></strong><p style="margin-bottom: 0in;"> 
+&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <img style="width: 597px; height: 461px;" alt="" src="images/2D%20Table%20Help/Table_edited.png"></p><p style="margin-bottom: 0in;"><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Figure 1.1</strong></p><p style="margin-bottom: 0in;"><strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; </strong><span style="font-weight: bold;">1. -</span> <span style="font-weight: bold;">RPM</span> is the <span style="font-weight: bold;">X </span>axis on your table<span style="font-weight: bold;"><br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>&nbsp;&nbsp;<span style="font-weight: bold;">2. - </span>Fuel Load % is the <span style="font-weight: bold;">Y</span> axis on this table, the <span style="font-weight: bold;">Y </span>axis will commonly be different depending on&nbsp; table purpose. <br><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 3. - </span>These are the <span style="font-weight: bold;">Y</span> axis bins&nbsp;<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span style="font-weight: bold;"> 4. -</span>&nbsp;These are the<span style="font-weight: bold;"> X</span> axis bins<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;"> 5. - </span>These are the <span style="font-weight: bold;">Z</span> axis cells</p><p style="margin-bottom: 0in;"><strong><a name="reBin"></a>Changing X &amp; Y "Bin" values and Re-Bin :</strong><strong></strong><br>
+
+</p>
+<p style="margin-bottom: 0in;">&nbsp;There are two ways to change the bin
+value:</p>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Click on the X or Y header </span>- To Change the bin this way open your table and
+click on the bin you wish to change, a &#8220;
+Standard Input &#8220; dialog will&nbsp;open, enter the new value for that bin
+and click &#8220;<span style="font-weight: bold;"> OK</span> &#8221; .  Now that bin has been changed but no cell
+values have been modified only change the value of the bin, it will not
+interpolate the values for the corresponding<span style="font-weight: bold;"> Z </span>axis cells</p>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Re-Bin Feature </span>- The second way is to click on the button at the
+intersecting point of your <span style="font-weight: bold;">X </span>and <span style="font-weight: bold;">Y</span> axis<span style="color: blue;"> ( See Figure 1.1 A-6 ) </span>. This
+will open the &#8220; Re-Bin Table&#8221; dialog, now make the changes to the <span style="font-weight: bold;">X</span> and <span style="font-weight: bold;">Y</span> axis bins that
+you need to suit your engine and click the &#8220;<span style="font-weight: bold;">Apply New X &amp; Y Values,
+Interpolate Z</span>&#8220; button at the lower right hand corner of the dialog<span style="color: blue;">
+( See Figure 1.2 A-3 )</span> . Now your bin values have been changed and
+the corresponding cell values or <span style="font-weight: bold;">Z</span> axis values have been interpolate,
+allowing you to fine tune the trouble spots on your table without
+having to re-tune the whole table. Also keep in
+mind that if you decide that you do not like that changes made you
+can use the undo / redo buttons <span style="color: blue;">( See Figure 1.1 A-7 )</span> on the
+original table dialog.  
+</p>
+<strong><br>
+</strong>The Re-Bin feature allows you to change your X &amp; Y values
+while keeping the tune as close to the same as possible. All table
+values are adjusted for newly assigned X &amp; Y values.<br>
+
+<p style="margin-bottom: 0in;"><strong>Why Re-Bining may be necessary :</strong></p>
+<p style="margin-bottom: 0in;">&nbsp;&nbsp;&nbsp; All of the ECU
+firmware for B &amp; G
+products interpolate the Ve values, this allows you to have fewer X
+&amp; Y
+bins unlike ECU's that do not interpolate
+the values causing a need for larger tables and consequently making
+tuning of your tables more time consuming and less accurate. As you
+start to tune your engine you
+will see that you really only need bins where the engine demonstrates
+a change from a linear direction. So having said that and also keeping
+in mind that every engine is different, it is impossible to know what
+the best value is for each X &amp; Y bin when you start tuning your
+engine. But as you
+continue to tune your engine you will then key points along the X or Y
+Axis that are deviating from the linear direction and require a "Pivot"
+point to table values. You will be able to adjust your <span style="font-weight: bold;">X</span> and<span style="font-weight: bold;"> Y</span> values to create these pivot points. <br>
+</p>
+<p style="margin-bottom: 0in;">You can simply change the X &amp; Y
+values to what you find more appropriate for your engine byt clicking
+on them and entering the new values that provide the needed pivot points.
+However, this will change your current tune in the process as the
+current Z values are no longer associated with the same X &amp; Y
+values. This is where the interpolating feature really helps out,
+as you go through and change your bin values to smooth your map out
+for your engine the <span style="font-weight: bold;">Z</span> value or Cell value is interpolate so that any
+change made will provide you with a map that is as close to your old
+map as possible but with the use of the new <span style="font-weight: bold;">X</span> and <span style="font-weight: bold;">Y</span> values that will
+allow for a more accurate tune for your engine.</p>
+&nbsp;&nbsp;&nbsp; 
+
+
+
+
+<p style="margin-bottom: 0in;"><strong>How to Re-Bin :</strong></p><p style="margin-bottom: 0in;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <img style="width: 635px; height: 419px;" alt="" src="images/2D%20Table%20Help/Re-Bin-1.png"></p><p style="margin-bottom: 0in;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; Figure 1.2</strong></p><p style="margin-bottom: 0in;"><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1.</span> These are the<span style="font-weight: bold;"> X</span> axis bins where you will enter new values and the corasponding <span style="font-weight: bold;">Z</span> axis&nbsp;cells will be interpolated.</p><p style="margin-bottom: 0in;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span style="font-weight: bold;">2. </span>These are the<span style="font-weight: bold;"> Y</span> axis bins where you will enter new values and the corasponding <span style="font-weight: bold;">Z</span> axis cells will be interpolated. &nbsp;</p><strong><br><br><a name="hotkey"></a>Buttons &amp; Hot Keys :<br>
+</strong><br>
+Button and Hot Key functions are also available on a right click menu.<br>
+<br><img style="width: 41px; height: 40px; float: left;" alt="" src="images/2D%20Table%20Help/Set_Equal.png"><br>The&nbsp;"<span style="color: blue;"></span><big><span style="font-weight: bold;"><span style="color: blue;"> =</span> </span></big>" key &amp; the button above set the selected cells to the value that is enter in the &nbsp;"User Parameter" dialog.<br><br><img style="width: 42px; height: 40px; float: left;" alt="" src="images/2D%20Table%20Help/Increase_Per.png"><br>The "<big><span style="color: blue; font-weight: bold;"> &gt;</span> </big>" key&nbsp;&amp; the button above  Increase's the value in the cells that have been selected by the amount specified in the <br> "Set Increment amount" dialog.<br><br><img style="width: 42px; height: 42px; float: left;" alt="" src="images/2D%20Table%20Help/Decrease_per.png"><br>The " <big><span style="color: blue; font-weight: bold;">&gt;</span></big>
+" key&nbsp;&amp; the button above Decrease's the value in the cells
+that have been selected by the amount specified in the&nbsp;<br>"Set Increment amount" dialog.<br><br><img style="width: 43px; height: 41px; float: left;" alt="" src="images/2D%20Table%20Help/Decrease_by_E.png"><br>The "<big> </big><span style="color: blue; font-weight: bold;"><big><big>-</big></big>&nbsp; </span>" key &amp; the button above decrease the selected cells to the value entered in the "User Parameter" dialog. <br><br><img style="width: 42px; height: 41px; float: left;" alt="" src="images/2D%20Table%20Help/Increase_by_E.png"><br>The "&nbsp; <big><span style="font-weight: bold; color: blue;">+</span> </big>" key &amp; the button above decrease the selected cells to the value entered in the "User Parameter" dialog. <br><br><img style="width: 43px; height: 42px; float: left;" alt="" src="images/2D%20Table%20Help/Scaling.png"><br>The "<span style="font-weight: bold; color: blue;"><big><big> <big>*</big></big></big><span style="font-weight: bold;"><span style="color: blue;"></span></span></span> " key &amp; the button above scale the select cells based off of the value entered in the "User Parameter" dialog.<br><br><img style="width: 43px; height: 42px; float: left;" alt="" src="images/2D%20Table%20Help/Interpolate.png"><br>The "<big><span style="color: blue; font-weight: bold;">&nbsp;/</span> </big>"
+key&nbsp;&amp; the button above adjusts all of the selected Z axis
+values to values interpolated between the selected four corners. <br><br><img style="width: 42px; height: 42px; float: left;" alt="" src="images/2D%20Table%20Help/Smooth.png"><br>The "<big><span style="color: blue; font-weight: bold;"> s </span></big>"
+key&nbsp;&amp; the button above smooth out a rough or bumpy table based
+on the smoothing factor entered in the "Standard Input" dialog.<br>Right
+click on the button above to change the smoothing factor. The best way
+to view the adjustments made by the smoothing feature is in <br>the 3D Table.<br><br>The "<big><span style="color: blue; font-weight: bold;"> f</span></big>
+" key will change every value up and to the right of the cell you have
+selected to the value in the selected cell . &nbsp;So if you select a <br>cell with a value of 65 every cell up and to the right of that cell will be changed to 65.<br><br>The standard copy and paste feature<span style="font-weight: bold;"> Ctrl + C</span> and<span style="font-weight: bold;"> Ctrl + V</span> will allow you select the whole table and paste it in another table or even Excel.<br><br><span style="font-weight: bold;"><a name="telltail"></a>History Tail -</span>
+The history trail is the blue trace line that you see on your table as
+the engine is running, it trails behind and shows you the<br>path
+through the table, that the data from the engine's sensors provided the
+ECU with to place the marker or history trail in that cell. To<br>change
+the number of reads back the history trail will go is set by right
+clicking on your table and at the bottom of the list you will see <br>"History
+Trail Length".Click on "History Trail Length" and it will open a dialog
+where you eneter the number of reads back you wish to see <br>on your table. <br><br>
+
+<hr>
+<center><font size="-1">©2013 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+
+</body></html>

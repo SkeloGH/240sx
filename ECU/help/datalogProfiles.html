@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+
+  <style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+   margin-top:5px;
+   margin-left:10px;
+   margin-right:10px;
+}
+td
+{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   color:Black;
+}
+h1 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:26px;
+   color:blue;
+}
+h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   //font-size:16px;
+   color:blue;
+}
+strong {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+b {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+li {
+   padding-top:12px;
+}
+  </style><title>File Structure</title></head><body>
+<center>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td align="left" width="150"> <img src="efia_logo_sm.png" border="0"></td>
+      <td align="center">
+      <h1>Data Log Profiles<br>
+      </h1>
+      </td>
+      <td align="right" width="150"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+</center>
+
+<strong><br>
+</strong><strong>Data Log Profile: </strong>By default when you data
+log all fields defined by the firmware developers are included in your
+data logs. For most typical tuning, data logging the complete set of
+fields is fine and insures the broadest set of data fields is available
+for later review. However you may choose to data log only a subset of
+the available fields in order to achieve a faster data rate* or
+decrease disk usage. Data Log Profiles provide you with this ability. <br>
+<br>
+*With many older firmware, Logging a subset of fields will not improve
+data rate because retrieving all runtime data in every read is the only
+model supported. However with firmwares that support partial runtime
+reads you will achieve higher data rates. <br>
+&nbsp;- MS2 Extra version 3.3+ (with CAN_COMMANDS On) <br>
+&nbsp;- MS3 1.3+ achieves substantially higher data rates. <br>
+<br>
+<strong>Creating and Editing Data Log Profiles </strong>data<br>
+From the Main Menu select:<br>
+Data Logging --&gt; Data Log Profiles<br>
+
+<br>
+<div style="text-align: center;"><img style="width: 500px; height: 378px;" alt="Default Data Log Profile" src="images/datalogProfiles_DefaultProfile.png"><br>
+</div>
+
+
+<br>
+
+<strong></strong>The Default Data Log Profile includes all fields and
+they will be displayed on the right under "Logged Fields". This is a
+special profile that is not user ediable.<br>
+<br>
+Creating a Data Log Group - By Clicking on the Add Data Log Profile
+Button (+), you will be prompted for the name of your new profile. <br>
+<div style="text-align: center;"><img style="width: 450px; height: 120px;" alt="New Profile Name" src="images/datalogProfiles_NewProfileName.png"><br>
+</div>
+Once entered, it will appear in the drop down at the top. <br>
+<br>
+<br>
+Initially the fields will look the same as the Default Profile, however they will now be editable. <br>
+<br>
+<div style="text-align: center;"><img style="width: 500px; height: 378px;" alt="My New Profile" src="images/datalogProfiles_NewProfile.png"><br>
+</div>
+
+
+<strong></strong><br>
+
+You may remove fields moving them to the left hand "Not Logged" list
+using the &lt; or &lt;&lt; buttons or add the back to the logged list
+with the &gt; or &gt;&gt; buttons<br>
+<br>
+To delete a Logging Profile; click the <img style="width: 25px; height: 25px;" alt="delete" src="images/datalogProfiles_DeleteProfile.png"> Button. <br>
+<br>
+With multiple profiles you may switch between them and edit them while
+the dialog is open. All changes will be save when you click Accept.<br>
+<br>
+<span style="font-weight: bold;">Important: </span>When you close the dialog with the accept button, the selected profile will be used for logging sessions within that project.<br>
+<br>
+
+
+<hr>
+<center><font size="-1">copyright 2013 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+
+</body></html>

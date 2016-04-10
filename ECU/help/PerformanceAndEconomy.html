@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<style>
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:Black;
+margin-top:5px;
+margin-left:10px;
+margin-right:10px;
+}
+td
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:Black;
+}
+h1 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:26px;
+color:blue;
+}
+h3 {
+font-family:Arial, Helvetica, sans-serif;
+//font-size:16px;
+color:blue;
+}
+strong {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:blue;
+}
+li {
+padding-top:12px;
+}
+</style><title>Key Component Roles</title></head><body>
+<center>
+<table width="100%">
+<tbody>
+<tr>
+<td align="left" width="150">
+<img src="efia_logo_sm.png" border="0"></td>
+<td align="center">
+<h1>Performance and Economy Fields</h1>
+</td>
+<td align="right" width="150">
+      <br>
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</center>
+<strong></strong><big><span style="color: blue;"></span></big><br>
+<p style="margin-bottom: 0in;">Performance and Economy fields are
+simply turned on for you to start monitoring the Power and Fuel economy
+of your vehicle. All you need is either a speed channel from your ECU
+or a GPS attached for TunerStudio to capture speed from. When using a
+GPS and <a href="https://www.efianalytics.com/products/BT-Q818XT.html">10Hz GPS</a> is highly recommended.<br>
+</p>
+<p style="margin-bottom: 0in;">In this section I will be
+going over
+how to fill in the required information for using the performance and
+economy fields. <br>
+</p>
+
+<p style="margin-bottom: 0in;"><span style="color: blue;"><span style="font-weight: bold;"></span></span></p>
+<p style="margin-bottom: 0in;"><span style="color: blue;"><span style="font-weight: bold;">Performance
+Fields :</span></span></p>
+<p style="margin-bottom: 0in;"><span style="color: blue;">&nbsp;</span>The performance
+fields allow you to
+make calculated estimation of several different types of data
+like&nbsp;Aerodynamic Drag, net HorsePower ,<br>
+net Torque, and Rolling Drag .</p>
+<p style="margin-bottom: 0in;"></p>
+<span style="color: blue;"><span style="font-weight: bold;"><br>
+Economy Fields :<br>
+<br>
+</span></span>The economy fields allow you to make
+calculated estimations of several different types as well. Your
+distance traveled in your fuel <br>
+consumption &#8220;MPG&#8221;
+&#8220;MPL&#8221; &#8220;KPL&#8221; , the rate at which you are pumping&nbsp;the fuel into
+the engine &#8220;CC per min&#8221; &#8220;gallons an hour&#8221; &#8220;lbs per hour&#8221;
+,<br>
+&nbsp;and instant measure of distance vs. fuel
+consumption, this is similar to the first calculation I talked about
+in the economy section but with<br>
+&nbsp;a slight difference the first
+calculation is the distance traveled and fuel consumed over a long
+distance or extended sample range, where <br>
+the instant will give you
+the calculated fuel you are using that very second as you mash the
+accelerator down.
+<p style="margin-bottom: 0in;"><span style="color: blue;"><span style="font-weight: bold;"></span></span></p>
+<span style="color: blue;"><span style="font-weight: bold;">Entering Vehicle Specifications :</span></span><span style="color: blue;"><span style="font-weight: bold;"></span></span><br>
+<p style="margin-bottom: 0in;"><img style="width: 375px; height: 284px;" alt="" src="images/Performance%20&amp;%20Economy%20fields/DataLogging%20Drop%20Down.png"></p>
+<br>
+<br>
+To use these features you will need to
+fill in the information in the Vehicle Specifications dialog .<br>
+This dialog can be fond under the &#8220;Data
+Logging&#8221; drop down menu, then click on the performance and economy
+fields option.<br>
+<br>
+<br>
+<img style="width: 592px; height: 291px;" alt="" src="images/Performance%20&amp;%20Economy%20fields/performance%20and%20economy.png"><br>
+<br>
+<br>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Primary Injector Size (cc) &#8211;</span>
+Enter the size in cc/min of the the primary<span style="font-style: normal;"><b> /</b></span><b>
+</b>main injectors for your engine. If your injectors are<br>
+&nbsp;measured&nbsp;in lbs / Hr you will need to convert to cc
+/ min. To covert from lbs / Hr to cc / min you will typically multiply
+by 10.5 . </p>
+</li>
+</ul>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;"> Fuel Flow Preferences &#8211; </span>Here
+you will select the units of measurement for your speed and fuel
+consumption . <span style="font-weight: bold;"></span></p>
+</li>
+</ul>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp;1. Speed Units &#8211;</span>
+Miles Per Hour or Kilometers Per Hour</p>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; 2. Fuel Consumption &#8211;</span>
+US Gallons, Imperial Gallons, Liters </p>
+<span style="font-weight: bold;"><br>
+</span>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Input Source &#8211;</span> Here
+you select what input drives your speed measurement . The options </p>
+<p style="margin-bottom: 0in;">in this drop down will
+vary with ecu type and firmware . </p>
+</li>
+</ul>
+<span style="font-weight: bold;">&nbsp; <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1. GPS
+speed &#8211;</span> will use a
+external GPS source to capture your
+speed .
+<ul>
+<p style="margin-bottom: 0in;">&nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp; &nbsp;<span style="font-weight: bold;">2. VSS 1 and VSS 2 &#8211;</span>
+Are typically a option you will see with MS2,s and MS3,s<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; &nbsp;this allows you to use a ADC
+in your MegaSquirt to read in a signal<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; from a factory
+or aftermarket tranny or drive shaft speed sensor.</p>
+<p style="margin-bottom: 0in;"> </p>
+<li><span style="font-weight: bold;">Vehicle
+Weight &#8211;</span> In
+this field you will need to enter the gross vehicles weight including
+the weight of the driver and all fluids. </li>
+</ul>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Vehicle Weight Units &#8211;</span>
+Here you will need to select what units you entered the gross vehicle
+what in . You have to options lbs or kilograms .</p>
+</li>
+</ul>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Tire Pressure (PSI) &#8211;</span>
+Enter the tire pressure that you commonly fill your tires to . </p>
+</li>
+</ul>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Frontal Area &#8211; </span><font style="font-weight: normal;">Frontal area is a projected
+vehicle area as seen from the front . You may be able to find your
+vehicle's frontal area value in various online sources or find a
+technical drawing you can use to figure it out. </font>
+</p>
+</li>
+</ul>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Frontal Area Units &#8211;</span>
+Here you will select the units in which your frontal area is measured<br>
+<span style="font-weight: bold;"><br>&nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;
+&nbsp; &nbsp;1. sqft &#8211;</span> Square
+Feet<br>
+<span style="font-weight: bold;"><br>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; 2. m^2 &#8211;</span> Square
+Meters</p>
+</li>
+</ul>
+<ul>
+<li>
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">Aerodynamic Drag
+Coefficient &#8211;</span>
+is a figure that measures the force of air
+resistance on
+a object. You can typically find the (Cd) of your vehicle online&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp;</p></li></ul><ul>
+<li><span style="font-weight: bold;">Log Power
+Fields &#8211;</span> Here you will select if you wish to data log the
+different fields<br>
+<p style="margin-bottom: 0in;">available HP &amp;
+TQ, HP, TQ, and DRAG.<br>
+<br>
+<span style="font-weight: bold;">&nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; 1. OFF &#8211;</span> No data will be captured<span style="font-weight: bold;">&nbsp;<br>
+<br>
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;2. Log HP &amp; Tq &#8211; </span>This
+option will allow you to select &#8220;Power&#8221;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;and &#8220;Torque&#8221; from
+the data log profile editor.</p>
+</li>
+
+<p style="margin-bottom: 0in;"><span style="font-weight: bold;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. Log HP , Tq &amp; Drag
+&#8211;</span> This option will allow you to
+select &#8220;Power&#8221;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;and &#8220;Torque&#8221; from the
+data
+log profile editor as well as
+automatically&nbsp;puts<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&#8220;Aerodynamic Drag&#8221;
+, &#8220;Rolling Drag&#8221; , and Accel Power&#8221; in the logged fields menu .</p>
+<hr>
+<center><font size="-1">©2010 <a href="http://www.EFIAnalytics.com">EFIAnalytics.com</a>
+</font></center>
+</ul>
+</body></html>

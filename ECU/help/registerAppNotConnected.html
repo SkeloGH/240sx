@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>Register Tune Monster EFI Software</title>
+  
+
+  
+  
+  <style>
+            .popup {
+                position:absolute; 
+                background-color:white;
+               }
+        </style>
+  
+  <style>
+body {
+  background-color: black;
+  color: #ffcc33;
+  font-family: Arial;
+  font-size: 12px;
+}
+a:link {
+  color: cyan;
+}
+a:visited {
+  color: cyan;
+}
+
+</style>
+  
+  <script language="JavaScript">
+            function submitForm(){
+                var err = "";
+                if(document.userInfo.firstName.value == ""){
+                    err += "First Name\n";
+                }
+                if(document.userInfo.lastName.value == ""){
+                    err += "Last Name\n";
+                }
+                if(document.userInfo.email.value == ""){
+                    err += "eMail Address\n";
+                }
+                
+                if(err!=""){
+                    alert("You must provide values for\n" +err);
+                    return;
+                }
+                if(document.userInfo.email.value != document.userInfo.emailVerify.value){
+                    alert("eMail addresses do not match!");
+                    return;
+                }
+                document.userInfo.submit();
+            }
+            
+            function showLicense(){
+                var url = 'license.jsp?appName=' +document.userInfo.appName.value;
+                openIFrame('licenseDiv', '68%','30px','240px','240px', url)
+            }
+            
+           function openIFrame(hldr,x,y,w,h,url) {
+               holder=document.getElementById(hldr); //wrap around div
+               holder.style.display='block';  // the div gets styled
+               holder.style.left=x;
+               holder.style.top=y;
+               holder.style.width=w;
+               IF=document.createElement('iframe');  // iframe is created in the DOM
+               IF.setAttribute('height', h);  // simple DOM methods
+               IF.setAttribute('width', w);
+               IF.setAttribute("src", url);
+               holder.appendChild(IF); // now we add it to the div
+               holder.innerHTML+='<button onclick="closeIF(this.parentNode)">Done</button>';
+             // final step is to put in additional controls
+           }
+           function closeIF(obj)
+             // the close is simple we just clear out the div
+           {
+              obj.innerHTML='';
+              obj.style.display='none';
+           }
+
+  </script></head><body style="color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+<table style="width: 100%;">
+
+  <tbody>
+    <tr>
+      <td style="width: 100px;"> <img src="efia_logo_sm.png" align="left"> </td>
+      <td style="width: 583px; color: rgb(255, 204, 51);" align="center">
+      <img src="mtImages/TuneMonster.jpg" align="middle"> </td>
+      <td style="width: 120px;"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: center;">
+</div>
+
+<hr>
+<center>
+<h2 style="color: rgb(255, 204, 0);"><big>Tune
+Monster EFI Registration</big><br>
+</h2>
+<div style="text-align: left;">
+<div style="text-align: left;">
+<div style="text-align: center;"><span style="color: rgb(255, 204, 0);">Before you begin using Tune Monster EFI, you must register your purchase. </span><small><br>
+
+</small><span style="color: rgb(255, 204, 0);">This computer appears to not be connected to the internet. <br>
+<br>
+</span><span style="color: rgb(255, 204, 0);"></span></div>
+<span style="color: rgb(255, 204, 0);">In order to register you
+must either be connected to the internet on the computer running Tune
+Monster, or on a computer that is connected go to:</span><br>
+
+<span style="color: rgb(255, 204, 0);"></span><a href="http://www.efianalytics.com/register/TuneMonster/">http://www.efianalytics.com/register/TuneMonster/</a><small><br>
+</small>
+<span style="color: rgb(255, 204, 0);"><br>
+</span><span style="color: rgb(255, 204, 0);">After registering you will recieve an email with the required registration information. <br>
+You
+can enter the registration recieved in to computers not on the internet.</span><br>
+</div>
+<span style="color: rgb(255, 204, 0);"></span></div>
+<span style="color: rgb(255, 204, 0);"></span><br>
+</center>
+
+<hr>
+<center><font size="-1"><span style="color: rgb(255, 204, 0);">copyright
+2006-2010</span> <a href="http://www.efianalytics.com/" target="_new">EFI
+Analytics</a>
+</font></center>
+
+</body></html>
